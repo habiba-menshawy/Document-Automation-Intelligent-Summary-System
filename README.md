@@ -326,13 +326,15 @@ The system processes documents through the following stages:
 
 ## Database Architecture Diagram
 ####Dual Database Architecture with LLM Integration
-####┌─────────────────────────────────────────────────────────────────────────┐
-####│                         DOCUMENT PROCESSING PIPELINE                     │
-####│                              (Abstract Layer)                            │
-####│  • Preprocessing  • Multimodal Classification  • Entity Extraction      │
-####└────────────────────────────┬────────────────────────────────────────────┘
-    ####                         │
-        ####                     ▼
+
+```
+┌─────────────────────────────────────────────────────────────────────────┐
+│                         DOCUMENT PROCESSING PIPELINE                     │
+│                              (Abstract Layer)                            │
+│  • Preprocessing  • Multimodal Classification  • Entity Extraction      │
+└────────────────────────────┬────────────────────────────────────────────┘
+                             │
+                             ▼
                     ┌────────────────┐
                     │  Processed     │
                     │  Document      │
@@ -465,6 +467,7 @@ LLM Interaction Points
          │   answer       │
          └────────────────┘
 
+```
 
 ## Agent Queries
 
