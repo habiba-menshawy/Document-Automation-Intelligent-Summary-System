@@ -1,0 +1,675 @@
+2025-10-31 00:24:08,031 - shared_logger.__main__ - ERROR - Failed to initialize Milvus client: <MilvusException: (code=2, message=Fail connecting to server on milvus-standalone:19530, illegal connection params or server unavailable)>
+2025-10-31 00:29:19,735 - shared_logger.__main__ - INFO - Milvus client initialized successfully with URL: http://localhost:19530
+2025-10-31 00:29:19,736 - shared_logger.__main__ - INFO - Field schema created with 4 fields
+2025-10-31 00:29:19,736 - shared_logger.__main__ - INFO - Collection schema created: 
+2025-10-31 00:29:19,736 - shared_logger.__main__ - INFO - Index parameters created: FLAT with COSINE
+2025-10-31 00:29:21,160 - shared_logger.__main__ - INFO - Collection 'example_collection' created. Total: 1
+2025-10-31 00:29:21,160 - shared_logger.__main__ - INFO - Database 'example_collection' created successfully.
+2025-10-31 01:33:12,261 - shared_logger.entity_extraction - INFO - Loading spaCy model: en_core_web_sm...
+2025-10-31 01:33:12,598 - shared_logger.__main__ - INFO - Starting preprocessing...
+2025-10-31 01:33:13,544 - shared_logger.__main__ - INFO - Running OCR...
+2025-10-31 01:33:30,259 - shared_logger.__main__ - INFO - Classifying document...
+2025-10-31 01:33:30,321 - shared_logger.__main__ - INFO - Extracting  entities...
+2025-10-31 01:33:30,481 - shared_logger.entity_extraction - INFO - type specific entities: []
+2025-10-31 01:33:30,482 - shared_logger.__main__ - INFO - Processing complete.
+2025-10-31 02:02:26,288 - shared_logger.entity_extraction - INFO - Loading spaCy model: en_core_web_sm...
+2025-10-31 02:02:26,772 - shared_logger.sqlite_db - INFO - SQLite database initialized at: documents.db
+2025-10-31 02:02:26,804 - shared_logger.milvus_db - INFO - Milvus client initialized successfully with URL: http://localhost:19530
+2025-10-31 02:02:26,804 - shared_logger.milvus_db - INFO - Field schema created with 4 fields
+2025-10-31 02:02:26,805 - shared_logger.milvus_db - INFO - Collection schema created: 
+2025-10-31 02:02:26,805 - shared_logger.milvus_db - INFO - Index parameters created: FLAT with COSINE
+2025-10-31 02:02:28,231 - shared_logger.milvus_db - INFO - Collection 'documents' created. Total: 2
+2025-10-31 02:02:28,231 - shared_logger.milvus_db - INFO - Database 'documents' created successfully.
+2025-10-31 02:02:28,231 - shared_logger.__main__ - INFO - Starting preprocessing...
+2025-10-31 02:02:29,155 - shared_logger.__main__ - INFO - Running OCR...
+2025-10-31 02:05:25,748 - shared_logger.entity_extraction - INFO - Loading spaCy model: en_core_web_sm...
+2025-10-31 02:05:26,210 - shared_logger.sqlite_db - INFO - SQLite database initialized at: documents.db
+2025-10-31 02:05:26,237 - shared_logger.milvus_db - INFO - Milvus client initialized successfully with URL: http://localhost:19530
+2025-10-31 02:05:26,240 - shared_logger.milvus_db - INFO - Field schema created with 4 fields
+2025-10-31 02:05:26,244 - shared_logger.milvus_db - INFO - Collection schema created: 
+2025-10-31 02:05:26,246 - shared_logger.milvus_db - INFO - Index parameters created: FLAT with COSINE
+2025-10-31 02:05:26,265 - shared_logger.milvus_db - INFO - Collection 'documents' has 0 rows
+2025-10-31 02:05:26,266 - shared_logger.milvus_db - INFO - Collection 'documents' is empty. Dropping and recreating.
+2025-10-31 02:05:26,277 - shared_logger.milvus_db - INFO - Collection 'documents' dropped
+2025-10-31 02:05:27,687 - shared_logger.milvus_db - INFO - Collection 'documents' created. Total: 2
+2025-10-31 02:05:27,687 - shared_logger.milvus_db - INFO - Database 'documents' created successfully.
+2025-10-31 02:05:27,688 - shared_logger.__main__ - INFO - Starting preprocessing...
+2025-10-31 02:05:28,526 - shared_logger.__main__ - INFO - Running OCR...
+2025-10-31 02:05:43,854 - shared_logger.__main__ - INFO - Classifying document...
+2025-10-31 02:05:43,906 - shared_logger.__main__ - INFO - Extracting  entities...
+2025-10-31 02:05:44,133 - shared_logger.entity_extraction - INFO - type specific entities: []
+2025-10-31 02:05:44,134 - shared_logger.__main__ - INFO - Processing complete.
+2025-10-31 02:07:56,920 - shared_logger.__main__ - ERROR - Failed to generate embedding: [Errno 110] Connection timed out
+2025-10-31 02:07:56,932 - shared_logger.milvus_db - ERROR - Error inserting into 'documents': <DataNotMatchException: (code=1, message=The Input data type is inconsistent with defined schema, please check it.)>
+2025-10-31 02:07:56,933 - shared_logger.__main__ - ERROR - Milvus insertion failed: Error inserting into 'documents': <DataNotMatchException: (code=1, message=The Input data type is inconsistent with defined schema, please check it.)>
+2025-10-31 02:09:37,343 - shared_logger.entity_extraction - INFO - Loading spaCy model: en_core_web_sm...
+2025-10-31 02:09:37,845 - shared_logger.sqlite_db - INFO - SQLite database initialized at: documents.db
+2025-10-31 02:09:37,874 - shared_logger.milvus_db - INFO - Milvus client initialized successfully with URL: http://localhost:19530
+2025-10-31 02:09:37,875 - shared_logger.milvus_db - INFO - Field schema created with 4 fields
+2025-10-31 02:09:37,875 - shared_logger.milvus_db - INFO - Collection schema created: 
+2025-10-31 02:09:37,875 - shared_logger.milvus_db - INFO - Index parameters created: FLAT with COSINE
+2025-10-31 02:09:37,881 - shared_logger.milvus_db - INFO - Collection 'documents' has 0 rows
+2025-10-31 02:09:37,882 - shared_logger.milvus_db - INFO - Collection 'documents' is empty. Dropping and recreating.
+2025-10-31 02:09:37,891 - shared_logger.milvus_db - INFO - Collection 'documents' dropped
+2025-10-31 02:09:39,076 - shared_logger.milvus_db - INFO - Collection 'documents' created. Total: 2
+2025-10-31 02:09:39,077 - shared_logger.milvus_db - INFO - Database 'documents' created successfully.
+2025-10-31 02:09:39,077 - shared_logger.__main__ - INFO - Starting preprocessing...
+2025-10-31 02:09:39,957 - shared_logger.__main__ - INFO - Running OCR...
+2025-10-31 02:09:55,079 - shared_logger.__main__ - INFO - Classifying document...
+2025-10-31 02:09:55,128 - shared_logger.__main__ - INFO - Extracting  entities...
+2025-10-31 02:09:55,358 - shared_logger.entity_extraction - INFO - type specific entities: []
+2025-10-31 02:09:55,359 - shared_logger.__main__ - INFO - Processing complete.
+2025-10-31 02:12:07,773 - shared_logger.__main__ - ERROR - Failed to generate embedding: [Errno 110] Connection timed out
+2025-10-31 02:12:07,786 - shared_logger.milvus_db - ERROR - Error inserting into 'documents': <DataNotMatchException: (code=1, message=The Input data type is inconsistent with defined schema, please check it.)>
+2025-10-31 02:12:07,787 - shared_logger.__main__ - ERROR - Milvus insertion failed: Error inserting into 'documents': <DataNotMatchException: (code=1, message=The Input data type is inconsistent with defined schema, please check it.)>
+2025-10-31 02:15:49,731 - shared_logger.entity_extraction - INFO - Loading spaCy model: en_core_web_sm...
+2025-10-31 02:15:50,203 - shared_logger.sqlite_db - INFO - SQLite database initialized at: documents.db
+2025-10-31 02:15:50,227 - shared_logger.milvus_db - INFO - Milvus client initialized successfully with URL: http://localhost:19530
+2025-10-31 02:15:50,228 - shared_logger.__main__ - INFO - Starting preprocessing...
+2025-10-31 02:15:51,106 - shared_logger.__main__ - INFO - Running OCR...
+2025-10-31 02:16:07,162 - shared_logger.__main__ - INFO - Classifying document...
+2025-10-31 02:16:07,222 - shared_logger.__main__ - INFO - Extracting  entities...
+2025-10-31 02:16:07,381 - shared_logger.entity_extraction - INFO - type specific entities: []
+2025-10-31 02:16:07,382 - shared_logger.__main__ - INFO - Processing complete.
+2025-10-31 02:18:21,495 - shared_logger.__main__ - ERROR - Failed to generate embedding: [Errno 110] Connection timed out
+2025-10-31 02:18:21,507 - shared_logger.milvus_db - ERROR - Error inserting into 'documents': <DataNotMatchException: (code=1, message=The Input data type is inconsistent with defined schema, please check it.)>
+2025-10-31 02:18:21,507 - shared_logger.__main__ - ERROR - Milvus insertion failed: Error inserting into 'documents': <DataNotMatchException: (code=1, message=The Input data type is inconsistent with defined schema, please check it.)>
+2025-10-31 02:21:00,514 - shared_logger.entity_extraction - INFO - Loading spaCy model: en_core_web_sm...
+2025-10-31 02:21:00,956 - shared_logger.sqlite_db - INFO - SQLite database initialized at: documents.db
+2025-10-31 02:21:00,979 - shared_logger.milvus_db - INFO - Milvus client initialized successfully with URL: http://localhost:19530
+2025-10-31 02:21:00,979 - shared_logger.__main__ - INFO - Starting preprocessing...
+2025-10-31 02:21:01,819 - shared_logger.__main__ - INFO - Running OCR...
+2025-10-31 02:21:16,945 - shared_logger.__main__ - INFO - Classifying document...
+2025-10-31 02:21:17,000 - shared_logger.__main__ - INFO - Extracting  entities...
+2025-10-31 02:21:17,145 - shared_logger.entity_extraction - INFO - type specific entities: []
+2025-10-31 02:21:17,145 - shared_logger.__main__ - INFO - Processing complete.
+2025-10-31 02:23:28,668 - shared_logger.__main__ - ERROR - Failed to generate embedding: [Errno 110] Connection timed out
+2025-10-31 02:23:28,730 - shared_logger.milvus_db - ERROR - Invalid data format for insertion.
+2025-10-31 02:23:28,731 - shared_logger.__main__ - ERROR - Milvus insertion failed: Invalid data format: object of type 'int' has no len()
+2025-10-31 02:25:03,360 - shared_logger.entity_extraction - INFO - Loading spaCy model: en_core_web_sm...
+2025-10-31 02:25:03,849 - shared_logger.sqlite_db - INFO - SQLite database initialized at: documents.db
+2025-10-31 02:25:03,874 - shared_logger.milvus_db - INFO - Milvus client initialized successfully with URL: http://localhost:19530
+2025-10-31 02:25:03,874 - shared_logger.__main__ - INFO - Starting preprocessing...
+2025-10-31 02:25:04,740 - shared_logger.__main__ - INFO - Running OCR...
+2025-10-31 02:25:20,389 - shared_logger.__main__ - INFO - Classifying document...
+2025-10-31 02:25:20,448 - shared_logger.__main__ - INFO - Extracting  entities...
+2025-10-31 02:25:20,593 - shared_logger.entity_extraction - INFO - type specific entities: []
+2025-10-31 02:25:20,594 - shared_logger.__main__ - INFO - Processing complete.
+2025-10-31 02:27:34,406 - shared_logger.__main__ - ERROR - Failed to generate embedding: [Errno 110] Connection timed out
+2025-10-31 02:27:34,422 - shared_logger.milvus_db - ERROR - Invalid data format for insertion.
+2025-10-31 02:27:34,423 - shared_logger.__main__ - ERROR - Milvus insertion failed: Invalid data format: object of type 'int' has no len()
+2025-10-31 02:29:13,019 - shared_logger.entity_extraction - INFO - Loading spaCy model: en_core_web_sm...
+2025-10-31 02:29:13,445 - shared_logger.sqlite_db - INFO - SQLite database initialized at: documents.db
+2025-10-31 02:29:13,467 - shared_logger.milvus_db - INFO - Milvus client initialized successfully with URL: http://localhost:19530
+2025-10-31 02:29:13,467 - shared_logger.__main__ - INFO - Starting preprocessing...
+2025-10-31 02:29:14,290 - shared_logger.__main__ - INFO - Running OCR...
+2025-10-31 02:29:29,521 - shared_logger.__main__ - INFO - Classifying document...
+2025-10-31 02:29:29,592 - shared_logger.__main__ - INFO - Extracting  entities...
+2025-10-31 02:29:29,804 - shared_logger.entity_extraction - INFO - type specific entities: []
+2025-10-31 02:29:29,804 - shared_logger.__main__ - INFO - Processing complete.
+2025-10-31 02:31:40,143 - shared_logger.__main__ - ERROR - Failed to generate embedding: [Errno 110] Connection timed out
+2025-10-31 02:31:40,161 - shared_logger.milvus_db - ERROR - Invalid data format for insertion.
+2025-10-31 02:31:40,162 - shared_logger.__main__ - ERROR - Milvus insertion failed: Invalid data format: object of type 'int' has no len()
+2025-10-31 02:36:26,300 - shared_logger.__main__ - INFO - Milvus client initialized successfully with URL: http://localhost:19530
+2025-10-31 02:36:26,301 - shared_logger.__main__ - INFO - Field schema created with 4 fields
+2025-10-31 02:36:26,302 - shared_logger.__main__ - INFO - Collection schema created: 
+2025-10-31 02:36:26,302 - shared_logger.__main__ - INFO - Index parameters created: FLAT with COSINE
+2025-10-31 02:36:26,311 - shared_logger.__main__ - INFO - Collection 'example_collection' has 0 rows
+2025-10-31 02:36:26,312 - shared_logger.__main__ - INFO - Collection 'example_collection' is empty. Dropping and recreating.
+2025-10-31 02:36:26,331 - shared_logger.__main__ - INFO - Collection 'example_collection' dropped
+2025-10-31 02:36:27,520 - shared_logger.__main__ - INFO - Collection 'example_collection' created. Total: 2
+2025-10-31 02:36:27,523 - shared_logger.__main__ - INFO - Database 'example_collection' created successfully.
+2025-10-31 02:38:51,573 - shared_logger.__main__ - INFO - Milvus client initialized successfully with URL: http://localhost:19530
+2025-10-31 02:38:51,573 - shared_logger.__main__ - INFO - Field schema created with 4 fields
+2025-10-31 02:38:51,573 - shared_logger.__main__ - INFO - Collection schema created: 
+2025-10-31 02:38:51,574 - shared_logger.__main__ - INFO - Index parameters created: FLAT with COSINE
+2025-10-31 02:38:51,576 - shared_logger.__main__ - INFO - Collection 'example_collection' has 0 rows
+2025-10-31 02:38:51,576 - shared_logger.__main__ - INFO - Collection 'example_collection' is empty. Dropping and recreating.
+2025-10-31 02:38:51,582 - shared_logger.__main__ - INFO - Collection 'example_collection' dropped
+2025-10-31 02:38:52,989 - shared_logger.__main__ - INFO - Collection 'example_collection' created. Total: 2
+2025-10-31 02:38:52,990 - shared_logger.__main__ - INFO - Database 'example_collection' created successfully.
+2025-10-31 02:38:52,991 - shared_logger.__main__ - INFO - Generating embedding...
+2025-10-31 02:38:52,991 - shared_logger.__main__ - INFO - Inserting into Milvus...
+2025-10-31 02:38:53,001 - shared_logger.__main__ - ERROR - Invalid data format for insertion.
+2025-10-31 02:39:35,750 - shared_logger.__main__ - INFO - Milvus client initialized successfully with URL: http://localhost:19530
+2025-10-31 02:39:35,750 - shared_logger.__main__ - INFO - Field schema created with 4 fields
+2025-10-31 02:39:35,751 - shared_logger.__main__ - INFO - Collection schema created: 
+2025-10-31 02:39:35,751 - shared_logger.__main__ - INFO - Index parameters created: FLAT with COSINE
+2025-10-31 02:39:35,753 - shared_logger.__main__ - INFO - Collection 'example_collection' has 0 rows
+2025-10-31 02:39:35,753 - shared_logger.__main__ - INFO - Collection 'example_collection' is empty. Dropping and recreating.
+2025-10-31 02:39:35,760 - shared_logger.__main__ - INFO - Collection 'example_collection' dropped
+2025-10-31 02:39:36,962 - shared_logger.__main__ - INFO - Collection 'example_collection' created. Total: 2
+2025-10-31 02:39:36,963 - shared_logger.__main__ - INFO - Database 'example_collection' created successfully.
+2025-10-31 02:39:36,964 - shared_logger.__main__ - INFO - Generating embedding...
+2025-10-31 02:39:36,964 - shared_logger.__main__ - INFO - Inserting into Milvus...
+2025-10-31 02:39:36,970 - shared_logger.__main__ - INFO - Inserted data into 'example_collection' with 0 records
+2025-10-31 02:39:37,490 - shared_logger.__main__ - INFO - Flushed collection 'example_collection'
+2025-10-31 02:40:16,155 - shared_logger.__main__ - INFO - Milvus client initialized successfully with URL: http://localhost:19530
+2025-10-31 02:40:16,156 - shared_logger.__main__ - INFO - Field schema created with 4 fields
+2025-10-31 02:40:16,157 - shared_logger.__main__ - INFO - Collection schema created: 
+2025-10-31 02:40:16,157 - shared_logger.__main__ - INFO - Index parameters created: FLAT with COSINE
+2025-10-31 02:40:16,159 - shared_logger.__main__ - INFO - Collection 'example_collection' has 1 rows
+2025-10-31 02:40:16,159 - shared_logger.__main__ - INFO - Collection 'example_collection' exists with 1 rows. Skipping.
+2025-10-31 02:40:16,159 - shared_logger.__main__ - INFO - Database 'example_collection' created successfully.
+2025-10-31 02:40:16,160 - shared_logger.__main__ - INFO - Generating embedding...
+2025-10-31 02:40:16,160 - shared_logger.__main__ - INFO - Inserting into Milvus...
+2025-10-31 02:40:16,165 - shared_logger.__main__ - INFO - Inserted data into 'example_collection' with 0 records
+2025-10-31 02:40:16,671 - shared_logger.__main__ - INFO - Flushed collection 'example_collection'
+2025-10-31 02:42:04,896 - shared_logger.__main__ - INFO - Milvus client initialized successfully with URL: http://localhost:19530
+2025-10-31 02:42:04,896 - shared_logger.__main__ - INFO - Field schema created with 4 fields
+2025-10-31 02:42:04,897 - shared_logger.__main__ - INFO - Collection schema created: 
+2025-10-31 02:42:04,897 - shared_logger.__main__ - INFO - Index parameters created: FLAT with COSINE
+2025-10-31 02:42:04,899 - shared_logger.__main__ - INFO - Collection 'example_collection' has 2 rows
+2025-10-31 02:42:04,899 - shared_logger.__main__ - INFO - Collection 'example_collection' exists with 2 rows. Skipping.
+2025-10-31 02:42:04,900 - shared_logger.__main__ - INFO - Database 'example_collection' created successfully.
+2025-10-31 02:42:04,900 - shared_logger.__main__ - INFO - Generating embedding...
+2025-10-31 02:42:04,900 - shared_logger.__main__ - INFO - Inserting into Milvus...
+2025-10-31 02:42:04,905 - shared_logger.__main__ - INFO - Inserted data into 'example_collection' with 1 records
+2025-10-31 02:42:05,416 - shared_logger.__main__ - INFO - Flushed collection 'example_collection'
+2025-10-31 02:42:05,422 - shared_logger.__main__ - INFO - Inserted into Milvus with PK=461861705003078882
+2025-10-31 02:42:31,941 - shared_logger.__main__ - INFO - Milvus client initialized successfully with URL: http://localhost:19530
+2025-10-31 02:42:31,942 - shared_logger.__main__ - INFO - Field schema created with 4 fields
+2025-10-31 02:42:31,942 - shared_logger.__main__ - INFO - Collection schema created: 
+2025-10-31 02:42:31,943 - shared_logger.__main__ - INFO - Index parameters created: FLAT with COSINE
+2025-10-31 02:42:31,944 - shared_logger.__main__ - INFO - Collection 'example_collection' has 3 rows
+2025-10-31 02:42:31,945 - shared_logger.__main__ - INFO - Collection 'example_collection' exists with 3 rows. Skipping.
+2025-10-31 02:42:31,945 - shared_logger.__main__ - INFO - Database 'example_collection' created successfully.
+2025-10-31 02:42:31,945 - shared_logger.__main__ - INFO - Generating embedding...
+2025-10-31 02:42:31,945 - shared_logger.__main__ - INFO - Inserting into Milvus...
+2025-10-31 02:42:31,956 - shared_logger.__main__ - INFO - Inserted data into 'example_collection' with 1 records
+2025-10-31 02:42:32,466 - shared_logger.__main__ - INFO - Flushed collection 'example_collection'
+2025-10-31 02:42:32,467 - shared_logger.__main__ - INFO - Inserted into Milvus with PK=461861705003078883
+2025-10-31 02:42:59,927 - shared_logger.entity_extraction - INFO - Loading spaCy model: en_core_web_sm...
+2025-10-31 02:43:00,356 - shared_logger.sqlite_db - INFO - SQLite database initialized at: documents.db
+2025-10-31 02:43:00,378 - shared_logger.milvus_db - INFO - Milvus client initialized successfully with URL: http://localhost:19530
+2025-10-31 02:43:00,379 - shared_logger.__main__ - INFO - Starting preprocessing...
+2025-10-31 02:43:01,214 - shared_logger.__main__ - INFO - Running OCR...
+2025-10-31 02:43:16,958 - shared_logger.__main__ - INFO - Classifying document...
+2025-10-31 02:43:17,015 - shared_logger.__main__ - INFO - Extracting  entities...
+2025-10-31 02:43:17,186 - shared_logger.entity_extraction - INFO - type specific entities: []
+2025-10-31 02:43:17,187 - shared_logger.__main__ - INFO - Processing complete.
+2025-10-31 02:45:29,512 - shared_logger.__main__ - ERROR - Failed to generate embedding: [Errno 110] Connection timed out
+2025-10-31 02:45:29,525 - shared_logger.milvus_db - INFO - Inserted data into 'documents' with 1 records
+2025-10-31 02:45:30,035 - shared_logger.milvus_db - INFO - Flushed collection 'documents'
+2025-10-31 02:45:30,036 - shared_logger.__main__ - INFO - Inserted into Milvus with PK=461861705003078884
+2025-10-31 02:47:42,621 - shared_logger.__main__ - ERROR - Summarization failed: [Errno 110] Connection timed out
+2025-10-31 02:47:42,647 - shared_logger.sqlite_db - ERROR - Database connection error: no such table: documents
+2025-10-31 02:47:42,650 - shared_logger.sqlite_db - ERROR - Error executing update: no such table: documents
+2025-10-31 02:47:42,651 - shared_logger.sqlite_db - ERROR - Query: 
+                        INSERT INTO documents (id, filename, summary, date, classification)
+                        VALUES (?, ?, ?, ?, ?)
+                    
+2025-10-31 02:47:42,651 - shared_logger.__main__ - ERROR - SQLite insertion failed: no such table: documents
+2025-10-31 02:50:03,384 - shared_logger.entity_extraction - INFO - Loading spaCy model: en_core_web_sm...
+2025-10-31 02:50:03,817 - shared_logger.sqlite_db - INFO - SQLite database initialized at: documents.db
+2025-10-31 02:50:03,830 - shared_logger.milvus_db - INFO - Milvus client initialized successfully with URL: http://localhost:19530
+2025-10-31 02:50:03,831 - shared_logger.__main__ - INFO - Starting preprocessing...
+2025-10-31 02:50:04,709 - shared_logger.__main__ - INFO - Running OCR...
+2025-10-31 02:50:20,298 - shared_logger.__main__ - INFO - Classifying document...
+2025-10-31 02:50:20,362 - shared_logger.__main__ - INFO - Extracting  entities...
+2025-10-31 02:50:20,515 - shared_logger.entity_extraction - INFO - type specific entities: []
+2025-10-31 02:50:20,515 - shared_logger.__main__ - INFO - Processing complete.
+2025-10-31 02:52:34,436 - shared_logger.__main__ - ERROR - Failed to generate embedding: [Errno 110] Connection timed out
+2025-10-31 02:52:34,460 - shared_logger.milvus_db - INFO - Inserted data into 'documents' with 1 records
+2025-10-31 02:52:34,970 - shared_logger.milvus_db - INFO - Flushed collection 'documents'
+2025-10-31 02:52:34,971 - shared_logger.__main__ - INFO - Inserted into Milvus with PK=461861705003078885
+2025-10-31 02:54:47,544 - shared_logger.__main__ - ERROR - Summarization failed: [Errno 110] Connection timed out
+2025-10-31 02:54:47,553 - shared_logger.sqlite_db - ERROR - Database connection error: no such table: documents
+2025-10-31 02:54:47,554 - shared_logger.sqlite_db - ERROR - Error executing update: no such table: documents
+2025-10-31 02:54:47,554 - shared_logger.sqlite_db - ERROR - Query: 
+                        INSERT INTO documents (id, filename, summary, date, classification)
+                        VALUES (?, ?, ?, ?, ?)
+                    
+2025-10-31 02:54:47,555 - shared_logger.__main__ - ERROR - SQLite insertion failed: no such table: documents
+2025-10-31 02:57:43,796 - shared_logger.__main__ - INFO - SQLite database initialized at: documents.db
+2025-10-31 02:57:43,829 - shared_logger.__main__ - DEBUG - Update executed: 
+                CREATE TABLE IF NOT EXISTS documents (
+                    id INTEGER PRIMARY KEY, ... affected -1 rows
+2025-10-31 02:57:43,855 - shared_logger.__main__ - DEBUG - Update executed: 
+                CREATE TABLE IF NOT EXISTS entities (
+                    id INTEGER PRIMARY KEY AU... affected -1 rows
+2025-10-31 02:57:43,856 - shared_logger.__main__ - INFO - Database tables created successfully
+2025-10-31 02:57:43,884 - shared_logger.__main__ - DEBUG - Update executed: 
+        INSERT INTO documents (id, filename, summary, date, classification, anomalies)
+        VALU... affected 1 rows
+2025-10-31 02:57:43,930 - shared_logger.__main__ - DEBUG - Batch executed: 
+        INSERT INTO entities (document_id, label, text, start_pos, end_pos, confidence, method)
+   ... affected 2 rows
+2025-10-31 02:57:43,945 - shared_logger.__main__ - DEBUG - Query executed: 
+                SELECT name FROM sqlite_master 
+                WHERE type='table' AND name NOT LIK... returned 2 rows
+2025-10-31 02:57:43,955 - shared_logger.__main__ - DEBUG - Query executed: PRAGMA table_info(documents)... returned 8 rows
+2025-10-31 02:57:43,964 - shared_logger.__main__ - DEBUG - Query executed: SELECT COUNT(*) FROM documents... returned 1 rows
+2025-10-31 02:57:43,972 - shared_logger.__main__ - DEBUG - Query executed: PRAGMA table_info(entities)... returned 9 rows
+2025-10-31 02:57:43,982 - shared_logger.__main__ - DEBUG - Query executed: SELECT COUNT(*) FROM entities... returned 1 rows
+2025-10-31 02:57:43,983 - shared_logger.__main__ - INFO - Retrieved info for 2 tables
+2025-10-31 02:58:44,704 - shared_logger.entity_extraction - INFO - Loading spaCy model: en_core_web_sm...
+2025-10-31 02:58:45,141 - shared_logger.sqlite_db - INFO - SQLite database initialized at: documents.db
+2025-10-31 02:58:45,147 - shared_logger.sqlite_db - DEBUG - Update executed: 
+                CREATE TABLE IF NOT EXISTS documents (
+                    id INTEGER PRIMARY KEY, ... affected -1 rows
+2025-10-31 02:58:45,149 - shared_logger.sqlite_db - DEBUG - Update executed: 
+                CREATE TABLE IF NOT EXISTS entities (
+                    id INTEGER PRIMARY KEY AU... affected -1 rows
+2025-10-31 02:58:45,150 - shared_logger.sqlite_db - INFO - Database tables created successfully
+2025-10-31 02:58:45,176 - shared_logger.milvus_db - INFO - Milvus client initialized successfully with URL: http://localhost:19530
+2025-10-31 02:58:45,177 - shared_logger.__main__ - INFO - Starting preprocessing...
+2025-10-31 02:58:46,048 - shared_logger.__main__ - INFO - Running OCR...
+2025-10-31 02:59:02,179 - shared_logger.__main__ - INFO - Classifying document...
+2025-10-31 02:59:02,235 - shared_logger.__main__ - INFO - Extracting  entities...
+2025-10-31 02:59:02,428 - shared_logger.entity_extraction - INFO - type specific entities: []
+2025-10-31 02:59:02,429 - shared_logger.__main__ - INFO - Processing complete.
+2025-10-31 03:01:16,636 - shared_logger.__main__ - ERROR - Failed to generate embedding: [Errno 110] Connection timed out
+2025-10-31 03:01:16,687 - shared_logger.milvus_db - INFO - Inserted data into 'documents' with 1 records
+2025-10-31 03:01:17,199 - shared_logger.milvus_db - INFO - Flushed collection 'documents'
+2025-10-31 03:01:17,200 - shared_logger.__main__ - INFO - Inserted into Milvus with PK=461861705003078886
+2025-10-31 03:03:29,728 - shared_logger.__main__ - ERROR - Summarization failed: [Errno 110] Connection timed out
+2025-10-31 03:03:29,772 - shared_logger.sqlite_db - DEBUG - Update executed: 
+                        INSERT INTO documents (id, filename, summary, date, classification)
+       ... affected 1 rows
+2025-10-31 03:03:29,842 - shared_logger.sqlite_db - DEBUG - Batch executed: 
+                    INSERT INTO entities (document_id, label, text, start_pos, end_pos, confidence,... affected 36 rows
+2025-10-31 03:10:51,021 - shared_logger.entity_extraction - INFO - Loading spaCy model: en_core_web_sm...
+2025-10-31 03:10:51,468 - shared_logger.sqlite_db - INFO - SQLite database initialized at: documents.db
+2025-10-31 03:10:51,481 - shared_logger.sqlite_db - DEBUG - Update executed: 
+                CREATE TABLE IF NOT EXISTS documents (
+                    id INTEGER PRIMARY KEY, ... affected -1 rows
+2025-10-31 03:10:51,491 - shared_logger.sqlite_db - DEBUG - Update executed: 
+                CREATE TABLE IF NOT EXISTS entities (
+                    id INTEGER PRIMARY KEY AU... affected -1 rows
+2025-10-31 03:10:51,493 - shared_logger.sqlite_db - INFO - Database tables created successfully
+2025-10-31 03:10:51,508 - shared_logger.milvus_db - INFO - Milvus client initialized successfully with URL: http://localhost:19530
+2025-10-31 03:10:51,509 - shared_logger.__main__ - INFO - Starting preprocessing...
+2025-10-31 03:10:52,056 - shared_logger.__main__ - INFO - Running OCR...
+2025-10-31 03:11:05,365 - shared_logger.__main__ - INFO - Classifying document...
+2025-10-31 03:11:05,431 - shared_logger.__main__ - INFO - Extracting  entities...
+2025-10-31 03:11:05,475 - shared_logger.entity_extraction - INFO - type specific entities: []
+2025-10-31 03:11:05,475 - shared_logger.__main__ - INFO - Processing complete.
+2025-10-31 03:11:05,476 - shared_logger.__main__ - INFO - Generating embedding...
+2025-10-31 03:13:18,430 - shared_logger.__main__ - ERROR - Failed to generate embedding: [Errno 110] Connection timed out
+2025-10-31 03:13:18,432 - shared_logger.__main__ - INFO - Inserting into Milvus...
+2025-10-31 03:13:18,445 - shared_logger.milvus_db - INFO - Inserted data into 'documents' with 1 records
+2025-10-31 03:13:18,954 - shared_logger.milvus_db - INFO - Flushed collection 'documents'
+2025-10-31 03:13:18,954 - shared_logger.__main__ - INFO - Inserted into Milvus with PK=461861705003078887
+2025-10-31 03:13:18,955 - shared_logger.__main__ - INFO - Generating summary...
+2025-10-31 03:13:18,989 - shared_logger.summary_llm - INFO - Using email summary prompt.
+2025-10-31 03:13:18,989 - shared_logger.summary_llm - INFO - Sending prompt to Ollama LLM for summarization.
+2025-10-31 03:15:31,539 - shared_logger.__main__ - ERROR - Summarization failed: [Errno 110] Connection timed out
+2025-10-31 03:15:31,586 - shared_logger.sqlite_db - DEBUG - Update executed: 
+                        INSERT INTO documents (id, filename, summary, date, classification)
+       ... affected 1 rows
+2025-10-31 03:15:31,649 - shared_logger.sqlite_db - DEBUG - Batch executed: 
+                    INSERT INTO entities (document_id, label, text, start_pos, end_pos, confidence,... affected 10 rows
+2025-10-31 03:18:10,190 - shared_logger.__main__ - INFO - Using email summary prompt.
+2025-10-31 03:18:10,191 - shared_logger.__main__ - INFO - Sending prompt to Ollama LLM for summarization.
+2025-10-31 03:19:17,782 - shared_logger.entity_extraction - INFO - Loading spaCy model: en_core_web_sm...
+2025-10-31 03:19:18,300 - shared_logger.sqlite_db - INFO - SQLite database initialized at: documents.db
+2025-10-31 03:19:18,322 - shared_logger.sqlite_db - DEBUG - Update executed: 
+                CREATE TABLE IF NOT EXISTS documents (
+                    id INTEGER PRIMARY KEY, ... affected -1 rows
+2025-10-31 03:19:18,332 - shared_logger.sqlite_db - DEBUG - Update executed: 
+                CREATE TABLE IF NOT EXISTS entities (
+                    id INTEGER PRIMARY KEY AU... affected -1 rows
+2025-10-31 03:19:18,335 - shared_logger.sqlite_db - INFO - Database tables created successfully
+2025-10-31 03:19:18,359 - shared_logger.milvus_db - INFO - Milvus client initialized successfully with URL: http://localhost:19530
+2025-10-31 03:19:18,359 - shared_logger.__main__ - INFO - Starting preprocessing...
+2025-10-31 03:19:18,946 - shared_logger.__main__ - INFO - Running OCR...
+2025-10-31 03:19:31,517 - shared_logger.__main__ - INFO - Classifying document...
+2025-10-31 03:19:31,594 - shared_logger.__main__ - INFO - Extracting  entities...
+2025-10-31 03:19:31,636 - shared_logger.entity_extraction - INFO - type specific entities: []
+2025-10-31 03:19:31,637 - shared_logger.__main__ - INFO - Processing complete.
+2025-10-31 03:19:31,638 - shared_logger.__main__ - INFO - Generating embedding...
+2025-10-31 03:21:45,271 - shared_logger.__main__ - ERROR - Failed to generate embedding: [Errno 110] Connection timed out
+2025-10-31 03:21:45,285 - shared_logger.__main__ - INFO - Inserting into Milvus...
+2025-10-31 03:21:45,302 - shared_logger.milvus_db - INFO - Inserted data into 'documents' with 1 records
+2025-10-31 03:21:45,814 - shared_logger.milvus_db - INFO - Flushed collection 'documents'
+2025-10-31 03:21:45,815 - shared_logger.__main__ - INFO - Inserted into Milvus with PK=461861705003078888
+2025-10-31 03:21:45,815 - shared_logger.__main__ - INFO - Generating summary...
+2025-10-31 03:21:45,840 - shared_logger.summary_llm - INFO - Using email summary prompt.
+2025-10-31 03:21:45,841 - shared_logger.summary_llm - INFO - Sending prompt to Ollama LLM for summarization.
+2025-10-31 03:23:49,587 - shared_logger.entity_extraction - INFO - Loading spaCy model: en_core_web_sm...
+2025-10-31 03:23:50,014 - shared_logger.sqlite_db - INFO - SQLite database initialized at: documents.db
+2025-10-31 03:23:50,022 - shared_logger.sqlite_db - DEBUG - Update executed: 
+                CREATE TABLE IF NOT EXISTS documents (
+                    id INTEGER PRIMARY KEY, ... affected -1 rows
+2025-10-31 03:23:50,028 - shared_logger.sqlite_db - DEBUG - Update executed: 
+                CREATE TABLE IF NOT EXISTS entities (
+                    id INTEGER PRIMARY KEY AU... affected -1 rows
+2025-10-31 03:23:50,029 - shared_logger.sqlite_db - INFO - Database tables created successfully
+2025-10-31 03:23:50,046 - shared_logger.milvus_db - INFO - Milvus client initialized successfully with URL: http://localhost:19530
+2025-10-31 03:23:50,047 - shared_logger.__main__ - INFO - Starting preprocessing...
+2025-10-31 03:23:50,571 - shared_logger.__main__ - INFO - Running OCR...
+2025-10-31 03:24:02,817 - shared_logger.__main__ - INFO - Classifying document...
+2025-10-31 03:24:02,863 - shared_logger.__main__ - INFO - Extracting  entities...
+2025-10-31 03:24:02,903 - shared_logger.entity_extraction - INFO - type specific entities: []
+2025-10-31 03:24:02,904 - shared_logger.__main__ - INFO - Processing complete.
+2025-10-31 03:24:02,905 - shared_logger.__main__ - INFO - Generating embedding...
+2025-10-31 03:30:32,519 - shared_logger.__main__ - INFO - Using email summary prompt.
+2025-10-31 03:30:32,519 - shared_logger.__main__ - INFO - Sending prompt to Ollama LLM for summarization.
+2025-10-31 03:31:08,915 - shared_logger.__main__ - INFO - Using email summary prompt.
+2025-10-31 03:31:08,916 - shared_logger.__main__ - INFO - Sending prompt to Ollama LLM for summarization.
+2025-10-31 03:31:08,916 - shared_logger.__main__ - INFO - Received response from Ollama LLM: <generator object Client._request.<locals>.inner at 0x7fd463fdaf80>
+2025-10-31 03:32:41,556 - shared_logger.__main__ - INFO - Using email summary prompt.
+2025-10-31 03:32:41,556 - shared_logger.__main__ - INFO - Sending prompt to Ollama LLM for summarization.
+2025-10-31 03:32:41,557 - shared_logger.__main__ - INFO - Received response from Ollama LLM: <generator object Client._request.<locals>.inner at 0x7fa2a4002e60>
+2025-10-31 03:43:19,982 - shared_logger.__main__ - INFO - Using email summary prompt.
+2025-10-31 03:43:19,982 - shared_logger.__main__ - INFO - Sending prompt to Ollama LLM for summarization.
+2025-10-31 03:43:32,306 - shared_logger.__main__ - INFO - Using email summary prompt.
+2025-10-31 03:43:32,307 - shared_logger.__main__ - INFO - Sending prompt to Ollama LLM for summarization.
+2025-10-31 04:07:18,757 - shared_logger.entity_extraction - INFO - Loading spaCy model: en_core_web_sm...
+2025-10-31 04:07:19,342 - shared_logger.sqlite_db - INFO - SQLite database initialized at: documents.db
+2025-10-31 04:07:19,353 - shared_logger.sqlite_db - DEBUG - Update executed: 
+                CREATE TABLE IF NOT EXISTS documents (
+                    id INTEGER PRIMARY KEY, ... affected -1 rows
+2025-10-31 04:07:19,357 - shared_logger.sqlite_db - DEBUG - Update executed: 
+                CREATE TABLE IF NOT EXISTS entities (
+                    id INTEGER PRIMARY KEY AU... affected -1 rows
+2025-10-31 04:07:19,357 - shared_logger.sqlite_db - INFO - Database tables created successfully
+2025-10-31 04:07:19,397 - shared_logger.milvus_db - INFO - Milvus client initialized successfully with URL: http://localhost:19530
+2025-10-31 04:07:19,397 - shared_logger.__main__ - INFO - Starting preprocessing...
+2025-10-31 04:07:20,096 - shared_logger.__main__ - INFO - Running OCR...
+2025-10-31 04:07:32,841 - shared_logger.__main__ - INFO - Classifying document...
+2025-10-31 04:07:32,926 - shared_logger.__main__ - INFO - Extracting  entities for document type Email...
+2025-10-31 04:07:32,963 - shared_logger.entity_extraction - INFO - type specific entities: []
+2025-10-31 04:07:32,964 - shared_logger.__main__ - INFO - Processing complete.
+2025-10-31 04:07:32,964 - shared_logger.__main__ - INFO - Generating embedding...
+2025-10-31 04:07:36,011 - shared_logger.__main__ - INFO - Inserting into Milvus...
+2025-10-31 04:07:36,047 - shared_logger.milvus_db - INFO - Inserted data into 'documents' with 1 records
+2025-10-31 04:07:36,584 - shared_logger.milvus_db - INFO - Flushed collection 'documents'
+2025-10-31 04:07:36,585 - shared_logger.__main__ - INFO - Inserted into Milvus with PK=461861705003078889
+2025-10-31 04:07:36,585 - shared_logger.__main__ - INFO - Generating summary...
+2025-10-31 04:07:36,646 - shared_logger.summary_llm - INFO - Using email summary prompt.
+2025-10-31 04:07:36,647 - shared_logger.summary_llm - INFO - Sending prompt to Ollama LLM for summarization.
+2025-10-31 04:07:36,647 - shared_logger.__main__ - ERROR - Summarization failed: Client.chat() got an unexpected keyword argument 'url'
+2025-10-31 04:07:36,672 - shared_logger.sqlite_db - DEBUG - Update executed: 
+                        INSERT INTO documents (id, filename, summary, date, classification)
+       ... affected 1 rows
+2025-10-31 04:07:36,712 - shared_logger.sqlite_db - DEBUG - Batch executed: 
+                    INSERT INTO entities (document_id, label, text, start_pos, end_pos, confidence,... affected 10 rows
+2025-10-31 04:08:55,858 - shared_logger.entity_extraction - INFO - Loading spaCy model: en_core_web_sm...
+2025-10-31 04:08:56,366 - shared_logger.sqlite_db - INFO - SQLite database initialized at: documents.db
+2025-10-31 04:08:56,376 - shared_logger.sqlite_db - DEBUG - Update executed: 
+                CREATE TABLE IF NOT EXISTS documents (
+                    id INTEGER PRIMARY KEY, ... affected -1 rows
+2025-10-31 04:08:56,387 - shared_logger.sqlite_db - DEBUG - Update executed: 
+                CREATE TABLE IF NOT EXISTS entities (
+                    id INTEGER PRIMARY KEY AU... affected -1 rows
+2025-10-31 04:08:56,389 - shared_logger.sqlite_db - INFO - Database tables created successfully
+2025-10-31 04:08:56,405 - shared_logger.milvus_db - INFO - Milvus client initialized successfully with URL: http://localhost:19530
+2025-10-31 04:08:56,405 - shared_logger.__main__ - INFO - Starting preprocessing...
+2025-10-31 04:08:56,967 - shared_logger.__main__ - INFO - Running OCR...
+2025-10-31 04:09:10,018 - shared_logger.__main__ - INFO - Classifying document...
+2025-10-31 04:09:10,082 - shared_logger.__main__ - INFO - Extracting  entities for document type Email...
+2025-10-31 04:09:10,105 - shared_logger.entity_extraction - INFO - type specific entities: []
+2025-10-31 04:09:10,106 - shared_logger.__main__ - INFO - Processing complete.
+2025-10-31 04:09:10,106 - shared_logger.__main__ - INFO - Generating embedding...
+2025-10-31 04:09:10,168 - shared_logger.__main__ - INFO - Inserting into Milvus...
+2025-10-31 04:09:10,179 - shared_logger.milvus_db - INFO - Inserted data into 'documents' with 1 records
+2025-10-31 04:09:10,686 - shared_logger.milvus_db - INFO - Flushed collection 'documents'
+2025-10-31 04:09:10,686 - shared_logger.__main__ - INFO - Inserted into Milvus with PK=461861705003078890
+2025-10-31 04:09:10,687 - shared_logger.__main__ - INFO - Generating summary...
+2025-10-31 04:09:10,734 - shared_logger.summary_llm - INFO - Using email summary prompt.
+2025-10-31 04:09:10,744 - shared_logger.summary_llm - INFO - Sending prompt to Ollama LLM for summarization.
+2025-10-31 04:09:10,746 - shared_logger.summary_llm - INFO - Received response from Ollama LLM: <generator object Client._request.<locals>.inner at 0x7fa5467da560>
+2025-10-31 04:09:10,747 - shared_logger.__main__ - ERROR - Summarization failed: 'generator' object is not subscriptable
+2025-10-31 04:09:10,781 - shared_logger.sqlite_db - DEBUG - Update executed: 
+                        INSERT INTO documents (id, filename, summary, date, classification)
+       ... affected 1 rows
+2025-10-31 04:09:10,827 - shared_logger.sqlite_db - DEBUG - Batch executed: 
+                    INSERT INTO entities (document_id, label, text, start_pos, end_pos, confidence,... affected 10 rows
+2025-10-31 04:09:48,199 - shared_logger.entity_extraction - INFO - Loading spaCy model: en_core_web_sm...
+2025-10-31 04:09:48,646 - shared_logger.sqlite_db - INFO - SQLite database initialized at: documents.db
+2025-10-31 04:09:48,650 - shared_logger.sqlite_db - DEBUG - Update executed: 
+                CREATE TABLE IF NOT EXISTS documents (
+                    id INTEGER PRIMARY KEY, ... affected -1 rows
+2025-10-31 04:09:48,657 - shared_logger.sqlite_db - DEBUG - Update executed: 
+                CREATE TABLE IF NOT EXISTS entities (
+                    id INTEGER PRIMARY KEY AU... affected -1 rows
+2025-10-31 04:09:48,658 - shared_logger.sqlite_db - INFO - Database tables created successfully
+2025-10-31 04:09:48,672 - shared_logger.milvus_db - INFO - Milvus client initialized successfully with URL: http://localhost:19530
+2025-10-31 04:09:48,672 - shared_logger.__main__ - INFO - Starting preprocessing...
+2025-10-31 04:09:49,247 - shared_logger.__main__ - INFO - Running OCR...
+2025-10-31 04:10:02,815 - shared_logger.__main__ - INFO - Classifying document...
+2025-10-31 04:10:02,887 - shared_logger.__main__ - INFO - Extracting  entities for document type Email...
+2025-10-31 04:10:02,923 - shared_logger.entity_extraction - INFO - type specific entities: []
+2025-10-31 04:10:02,924 - shared_logger.__main__ - INFO - Processing complete.
+2025-10-31 04:10:02,925 - shared_logger.__main__ - INFO - Generating embedding...
+2025-10-31 04:10:02,991 - shared_logger.__main__ - INFO - Inserting into Milvus...
+2025-10-31 04:10:03,004 - shared_logger.milvus_db - INFO - Inserted data into 'documents' with 1 records
+2025-10-31 04:10:03,517 - shared_logger.milvus_db - INFO - Flushed collection 'documents'
+2025-10-31 04:10:03,519 - shared_logger.__main__ - INFO - Inserted into Milvus with PK=461861705003078891
+2025-10-31 04:10:03,519 - shared_logger.__main__ - INFO - Generating summary...
+2025-10-31 04:10:03,564 - shared_logger.summary_llm - INFO - Using email summary prompt.
+2025-10-31 04:10:03,565 - shared_logger.summary_llm - INFO - Sending prompt to Ollama LLM for summarization.
+2025-10-31 04:10:07,628 - shared_logger.summary_llm - INFO - Received response from Ollama LLM: model='hf.co/bartowski/Llama-3.2-1B-Instruct-GGUF' created_at='2025-10-31T02:10:07.624485Z' done=True done_reason='stop' total_duration=4055512200 load_duration=2931688900 prompt_eval_count=360 prompt_eval_duration=50412800 eval_count=155 eval_duration=881998500 message=Message(role='assistant', content="Here is a concise, informative summary of the email:\n\n**Summary:** David Greenberg is informing Donna Staunton that he will be leaving for Berlin to attend an meeting with Andreas, and he expects to return in ten days. He also mentions that Mark Berlind will contact Donna directly.\n\n**Key Points:**\n\n* David will leave for Berlin\n* Expected return date: 10 days from the current date (Saturday, June 27)\n* Mark Berlind will contact Donna directly\n\n**Priority:** Medium (David's departure and expected return are of interest)\n\n**Important People/Projects/T topics mentioned:**\n\n* Andreas meeting\n* David Greenberg\n* Donna Staunton\n* Mark Berlind\n* Berlin trip\n\n**Attachments:** None", thinking=None, images=None, tool_name=None, tool_calls=None)
+2025-10-31 04:10:07,662 - shared_logger.sqlite_db - DEBUG - Update executed: 
+                        INSERT INTO documents (id, filename, summary, date, classification)
+       ... affected 1 rows
+2025-10-31 04:10:07,699 - shared_logger.sqlite_db - DEBUG - Batch executed: 
+                    INSERT INTO entities (document_id, label, text, start_pos, end_pos, confidence,... affected 10 rows
+2025-10-31 04:18:35,568 - shared_logger.sqlite_db - INFO - SQLite database initialized at: documents.db
+2025-10-31 04:18:35,583 - shared_logger.milvus_db - INFO - Milvus client initialized successfully with URL: http://localhost:19530
+2025-10-31 04:19:09,563 - shared_logger.sqlite_db - INFO - SQLite database initialized at: documents.db
+2025-10-31 04:19:09,585 - shared_logger.milvus_db - INFO - Milvus client initialized successfully with URL: http://localhost:19530
+2025-10-31 04:19:09,607 - shared_logger.sqlite_db - INFO - SQLite database initialized at: documents.db
+2025-10-31 04:19:09,611 - shared_logger.sqlite_db - DEBUG - Update executed: 
+                CREATE TABLE IF NOT EXISTS documents (
+                    id INTEGER PRIMARY KEY, ... affected -1 rows
+2025-10-31 04:19:09,616 - shared_logger.sqlite_db - DEBUG - Update executed: 
+                CREATE TABLE IF NOT EXISTS entities (
+                    id INTEGER PRIMARY KEY AU... affected -1 rows
+2025-10-31 04:19:09,617 - shared_logger.sqlite_db - INFO - Database tables created successfully
+2025-10-31 04:19:09,617 - shared_logger.milvus_db - INFO - Milvus client initialized successfully with URL: http://localhost:19530
+2025-10-31 04:19:09,617 - shared_logger.milvus_db - INFO - Field schema created with 4 fields
+2025-10-31 04:19:09,618 - shared_logger.milvus_db - INFO - Collection schema created: 
+2025-10-31 04:19:09,618 - shared_logger.milvus_db - INFO - Index parameters created: FLAT with COSINE
+2025-10-31 04:19:09,627 - shared_logger.milvus_db - INFO - Collection 'documents' has 11 rows
+2025-10-31 04:19:09,628 - shared_logger.milvus_db - INFO - Collection 'documents' exists with 11 rows. Skipping.
+2025-10-31 04:19:09,628 - shared_logger.milvus_db - INFO - Database 'documents' created successfully.
+2025-10-31 04:19:12,477 - shared_logger.entity_extraction - INFO - Loading spaCy model: en_core_web_sm...
+2025-10-31 04:22:00,496 - shared_logger.document_processor - INFO - Starting preprocessing...
+2025-10-31 04:22:00,990 - shared_logger.document_processor - INFO - Running OCR...
+2025-10-31 04:22:07,569 - shared_logger.document_processor - INFO - Classifying document...
+2025-10-31 04:22:07,603 - shared_logger.document_processor - INFO - Extracting  entities for document type Email...
+2025-10-31 04:22:07,615 - shared_logger.entity_extraction - INFO - type specific entities: []
+2025-10-31 04:22:07,616 - shared_logger.document_processor - INFO - Processing complete.
+2025-10-31 04:22:07,616 - shared_logger.document_processor - INFO - Generating embedding...
+2025-10-31 04:22:10,232 - shared_logger.document_processor - INFO - Inserting into Milvus...
+2025-10-31 04:22:10,241 - shared_logger.milvus_db - INFO - Inserted data into 'documents' with 1 records
+2025-10-31 04:22:10,748 - shared_logger.milvus_db - INFO - Flushed collection 'documents'
+2025-10-31 04:22:10,749 - shared_logger.document_processor - INFO - Inserted into Milvus with PK=461861705003078892
+2025-10-31 04:22:10,750 - shared_logger.document_processor - INFO - Generating summary...
+2025-10-31 04:22:10,750 - shared_logger.summary_llm - INFO - Using email summary prompt.
+2025-10-31 04:22:10,751 - shared_logger.summary_llm - INFO - Sending prompt to Ollama LLM for summarization.
+2025-10-31 04:22:14,174 - shared_logger.summary_llm - INFO - Received response from Ollama LLM: model='hf.co/bartowski/Llama-3.2-1B-Instruct-GGUF' created_at='2025-10-31T02:22:14.1728871Z' done=True done_reason='stop' total_duration=3423047800 load_duration=2512299900 prompt_eval_count=215 prompt_eval_duration=36642500 eval_count=136 eval_duration=742109000 message=Message(role='assistant', content='Here is a concise, informative summary of the email:\n\n**Summary:** The email appears to be an update from Raaes regarding their progress in completing project "od 002". It mentions that they have been working on the project for C99 216 hours.\n\n**Key Points:**\n\n* Raaes has been working on project "od 002" for C99 216 hours.\n* The email does not provide any specific details about the project\'s progress or outcome.\n\n**Priority:** Medium\n\n**Important People, Projects, or Topics:**\n\n* None mentioned in this email.\n\n**Attachments and Relevance:**\n\n* There are no attachments mentioned in this email.', thinking=None, images=None, tool_name=None, tool_calls=None)
+2025-10-31 04:22:14,207 - shared_logger.sqlite_db - DEBUG - Update executed: 
+                        INSERT INTO documents (id, filename, summary, date, classification)
+       ... affected 1 rows
+2025-10-31 04:22:14,300 - shared_logger.sqlite_db - DEBUG - Batch executed: 
+                    INSERT INTO entities (document_id, label, text, start_pos, end_pos, confidence,... affected 1 rows
+2025-10-31 04:26:44,609 - shared_logger.sqlite_db - INFO - SQLite database initialized at: documents.db
+2025-10-31 04:26:44,635 - shared_logger.milvus_db - INFO - Milvus client initialized successfully with URL: http://localhost:19530
+2025-10-31 04:26:44,649 - shared_logger.sqlite_db - INFO - SQLite database initialized at: documents.db
+2025-10-31 04:26:44,657 - shared_logger.sqlite_db - DEBUG - Update executed: 
+                CREATE TABLE IF NOT EXISTS documents (
+                    id INTEGER PRIMARY KEY, ... affected -1 rows
+2025-10-31 04:26:44,667 - shared_logger.sqlite_db - DEBUG - Update executed: 
+                CREATE TABLE IF NOT EXISTS entities (
+                    id INTEGER PRIMARY KEY AU... affected -1 rows
+2025-10-31 04:26:44,669 - shared_logger.sqlite_db - INFO - Database tables created successfully
+2025-10-31 04:26:44,669 - shared_logger.milvus_db - INFO - Milvus client initialized successfully with URL: http://localhost:19530
+2025-10-31 04:26:44,670 - shared_logger.milvus_db - INFO - Field schema created with 4 fields
+2025-10-31 04:26:44,671 - shared_logger.milvus_db - INFO - Collection schema created: 
+2025-10-31 04:26:44,671 - shared_logger.milvus_db - INFO - Index parameters created: FLAT with COSINE
+2025-10-31 04:26:44,678 - shared_logger.milvus_db - INFO - Collection 'documents' has 12 rows
+2025-10-31 04:26:44,679 - shared_logger.milvus_db - INFO - Collection 'documents' exists with 12 rows. Skipping.
+2025-10-31 04:26:44,679 - shared_logger.milvus_db - INFO - Database 'documents' created successfully.
+2025-10-31 04:26:48,254 - shared_logger.entity_extraction - INFO - Loading spaCy model: en_core_web_sm...
+2025-10-31 04:26:54,189 - shared_logger.document_processor - INFO - Starting preprocessing...
+2025-10-31 04:26:54,729 - shared_logger.document_processor - INFO - Running OCR...
+2025-10-31 04:27:01,344 - shared_logger.document_processor - INFO - Classifying document...
+2025-10-31 04:27:01,409 - shared_logger.document_processor - INFO - Extracting  entities for document type Email...
+2025-10-31 04:27:01,431 - shared_logger.entity_extraction - INFO - type specific entities: []
+2025-10-31 04:27:01,433 - shared_logger.document_processor - INFO - Processing complete.
+2025-10-31 04:27:01,436 - shared_logger.document_processor - INFO - Generating embedding...
+2025-10-31 04:27:01,499 - shared_logger.document_processor - INFO - Inserting into Milvus...
+2025-10-31 04:27:01,508 - shared_logger.milvus_db - INFO - Inserted data into 'documents' with 1 records
+2025-10-31 04:27:02,023 - shared_logger.milvus_db - INFO - Flushed collection 'documents'
+2025-10-31 04:27:02,024 - shared_logger.document_processor - INFO - Inserted into Milvus with PK=461861705003078893
+2025-10-31 04:27:02,024 - shared_logger.document_processor - INFO - Generating summary...
+2025-10-31 04:27:02,025 - shared_logger.summary_llm - INFO - Using email summary prompt.
+2025-10-31 04:27:02,025 - shared_logger.summary_llm - INFO - Sending prompt to Ollama LLM for summarization.
+2025-10-31 04:27:03,674 - shared_logger.summary_llm - INFO - Received response from Ollama LLM: model='hf.co/bartowski/Llama-3.2-1B-Instruct-GGUF' created_at='2025-10-31T02:27:03.6731294Z' done=True done_reason='stop' total_duration=1644455200 load_duration=346786900 prompt_eval_count=215 prompt_eval_duration=139740200 eval_count=136 eval_duration=1056034100 message=Message(role='assistant', content='Here is a concise, informative summary of the email:\n\n**Summary:** The email appears to be an update from Raaes regarding their progress in completing project "od 002". It mentions that they have been working on the project for C99 216 hours.\n\n**Key Points:**\n\n* Raaes has been working on project "od 002" for C99 216 hours.\n* The email does not provide any specific details about the project\'s progress or outcome.\n\n**Priority:** Medium\n\n**Important People, Projects, or Topics:**\n\n* None mentioned in this email.\n\n**Attachments and Relevance:**\n\n* There are no attachments mentioned in this email.', thinking=None, images=None, tool_name=None, tool_calls=None)
+2025-10-31 04:27:03,723 - shared_logger.sqlite_db - DEBUG - Update executed: 
+                        INSERT INTO documents (id, filename, summary, date, classification)
+       ... affected 1 rows
+2025-10-31 04:27:03,763 - shared_logger.sqlite_db - DEBUG - Batch executed: 
+                    INSERT INTO entities (document_id, label, text, start_pos, end_pos, confidence,... affected 1 rows
+2025-10-31 04:28:12,726 - shared_logger.sqlite_db - INFO - SQLite database initialized at: documents.db
+2025-10-31 04:28:12,744 - shared_logger.milvus_db - INFO - Milvus client initialized successfully with URL: http://localhost:19530
+2025-10-31 04:28:12,770 - shared_logger.sqlite_db - INFO - SQLite database initialized at: documents.db
+2025-10-31 04:28:12,775 - shared_logger.sqlite_db - DEBUG - Update executed: 
+                CREATE TABLE IF NOT EXISTS documents (
+                    id INTEGER PRIMARY KEY, ... affected -1 rows
+2025-10-31 04:28:12,785 - shared_logger.sqlite_db - DEBUG - Update executed: 
+                CREATE TABLE IF NOT EXISTS entities (
+                    id INTEGER PRIMARY KEY AU... affected -1 rows
+2025-10-31 04:28:12,788 - shared_logger.sqlite_db - INFO - Database tables created successfully
+2025-10-31 04:28:12,789 - shared_logger.milvus_db - INFO - Milvus client initialized successfully with URL: http://localhost:19530
+2025-10-31 04:28:12,791 - shared_logger.milvus_db - INFO - Field schema created with 4 fields
+2025-10-31 04:28:12,792 - shared_logger.milvus_db - INFO - Collection schema created: 
+2025-10-31 04:28:12,792 - shared_logger.milvus_db - INFO - Index parameters created: FLAT with COSINE
+2025-10-31 04:28:12,796 - shared_logger.milvus_db - INFO - Collection 'documents' has 13 rows
+2025-10-31 04:28:12,796 - shared_logger.milvus_db - INFO - Collection 'documents' exists with 13 rows. Skipping.
+2025-10-31 04:28:12,799 - shared_logger.milvus_db - INFO - Database 'documents' created successfully.
+2025-10-31 04:28:14,987 - shared_logger.entity_extraction - INFO - Loading spaCy model: en_core_web_sm...
+2025-10-31 04:28:18,255 - shared_logger.document_processor - INFO - Starting preprocessing...
+2025-10-31 04:28:18,732 - shared_logger.document_processor - INFO - Running OCR...
+2025-10-31 04:28:24,698 - shared_logger.document_processor - INFO - Classifying document...
+2025-10-31 04:28:24,731 - shared_logger.document_processor - INFO - Extracting  entities for document type Email...
+2025-10-31 04:28:24,744 - shared_logger.entity_extraction - INFO - type specific entities: []
+2025-10-31 04:28:24,744 - shared_logger.document_processor - INFO - Processing complete.
+2025-10-31 04:28:24,748 - shared_logger.document_processor - INFO - Generating embedding...
+2025-10-31 04:28:24,809 - shared_logger.document_processor - INFO - Inserting into Milvus...
+2025-10-31 04:28:24,816 - shared_logger.milvus_db - INFO - Inserted data into 'documents' with 1 records
+2025-10-31 04:28:25,328 - shared_logger.milvus_db - INFO - Flushed collection 'documents'
+2025-10-31 04:28:25,328 - shared_logger.document_processor - INFO - Inserted into Milvus with PK=461861705003078894
+2025-10-31 04:28:25,329 - shared_logger.document_processor - INFO - Generating summary...
+2025-10-31 04:28:25,329 - shared_logger.summary_llm - INFO - Using email summary prompt.
+2025-10-31 04:28:25,329 - shared_logger.summary_llm - INFO - Sending prompt to Ollama LLM for summarization.
+2025-10-31 04:28:26,664 - shared_logger.summary_llm - INFO - Received response from Ollama LLM: model='hf.co/bartowski/Llama-3.2-1B-Instruct-GGUF' created_at='2025-10-31T02:28:26.6632795Z' done=True done_reason='stop' total_duration=1331435300 load_duration=164770500 prompt_eval_count=215 prompt_eval_duration=140895400 eval_count=136 eval_duration=838589000 message=Message(role='assistant', content='Here is a concise, informative summary of the email:\n\n**Summary:** The email appears to be an update from Raaes regarding their progress in completing project "od 002". It mentions that they have been working on the project for C99 216 hours.\n\n**Key Points:**\n\n* Raaes has been working on project "od 002" for C99 216 hours.\n* The email does not provide any specific details about the project\'s progress or outcome.\n\n**Priority:** Medium\n\n**Important People, Projects, or Topics:**\n\n* None mentioned in this email.\n\n**Attachments and Relevance:**\n\n* There are no attachments mentioned in this email.', thinking=None, images=None, tool_name=None, tool_calls=None)
+2025-10-31 04:28:26,693 - shared_logger.sqlite_db - DEBUG - Update executed: 
+                        INSERT INTO documents (id, filename, summary, date, classification)
+       ... affected 1 rows
+2025-10-31 04:28:26,723 - shared_logger.sqlite_db - DEBUG - Batch executed: 
+                    INSERT INTO entities (document_id, label, text, start_pos, end_pos, confidence,... affected 1 rows
+2025-10-31 04:30:18,507 - shared_logger.document_processor - INFO - Starting preprocessing...
+2025-10-31 04:30:18,948 - shared_logger.document_processor - INFO - Running OCR...
+2025-10-31 04:30:30,642 - shared_logger.document_processor - INFO - Classifying document...
+2025-10-31 04:30:30,697 - shared_logger.document_processor - INFO - Extracting  entities for document type Email...
+2025-10-31 04:30:30,759 - shared_logger.entity_extraction - INFO - type specific entities: []
+2025-10-31 04:30:30,760 - shared_logger.document_processor - INFO - Processing complete.
+2025-10-31 04:30:30,760 - shared_logger.document_processor - INFO - Generating embedding...
+2025-10-31 04:30:30,848 - shared_logger.document_processor - INFO - Inserting into Milvus...
+2025-10-31 04:30:30,859 - shared_logger.milvus_db - INFO - Inserted data into 'documents' with 1 records
+2025-10-31 04:30:31,372 - shared_logger.milvus_db - INFO - Flushed collection 'documents'
+2025-10-31 04:30:31,373 - shared_logger.document_processor - INFO - Inserted into Milvus with PK=461861705003078895
+2025-10-31 04:30:31,373 - shared_logger.document_processor - INFO - Generating summary...
+2025-10-31 04:30:31,374 - shared_logger.summary_llm - INFO - Using email summary prompt.
+2025-10-31 04:30:31,374 - shared_logger.summary_llm - INFO - Sending prompt to Ollama LLM for summarization.
+2025-10-31 04:30:33,350 - shared_logger.summary_llm - INFO - Received response from Ollama LLM: model='hf.co/bartowski/Llama-3.2-1B-Instruct-GGUF' created_at='2025-10-31T02:30:33.3488303Z' done=True done_reason='stop' total_duration=1972761700 load_duration=244373700 prompt_eval_count=373 prompt_eval_duration=295964700 eval_count=212 eval_duration=1277837700 message=Message(role='assistant', content='Here is a concise, informative summary of the email:\n\n**Summary:** The email is from Gregory to Carla L. regarding an event called STS Day 2001, which will take place on July 13-14 (not July 13-8:30 AM - 4:00 PM as mentioned) at the Holiday Inn Select in Koger Center.\n\n**Key Points:**\n\n* The agenda for the event is from 8:30-10:30 AM.\n* There may be confusion about the date of the event, which was initially stated as July 13 but appears to have been changed to another day.\n\n**Priority:** Medium (the email seems to be a notification or reminder rather than an urgent action item)\n\n**Important People/Projects/T topics:**\n\n* Gregory and Carla L. are mentioned as the sender and recipient of the email, respectively.\n* The event is related to STS Day 2001, which suggests that it may be part of a larger project or initiative.\n\n**Attachments:** None mentioned in this email.', thinking=None, images=None, tool_name=None, tool_calls=None)
+2025-10-31 04:30:33,388 - shared_logger.sqlite_db - DEBUG - Update executed: 
+                        INSERT INTO documents (id, filename, summary, date, classification)
+       ... affected 1 rows
+2025-10-31 04:30:33,426 - shared_logger.sqlite_db - DEBUG - Batch executed: 
+                    INSERT INTO entities (document_id, label, text, start_pos, end_pos, confidence,... affected 8 rows
+2025-10-31 04:34:26,120 - shared_logger.sqlite_db - INFO - SQLite database initialized at: documents.db
+2025-10-31 04:34:26,135 - shared_logger.milvus_db - INFO - Milvus client initialized successfully with URL: http://localhost:19530
+2025-10-31 04:34:26,149 - shared_logger.sqlite_db - INFO - SQLite database initialized at: documents.db
+2025-10-31 04:34:26,154 - shared_logger.sqlite_db - DEBUG - Update executed: 
+                CREATE TABLE IF NOT EXISTS documents (
+                    id INTEGER PRIMARY KEY, ... affected -1 rows
+2025-10-31 04:34:26,159 - shared_logger.sqlite_db - DEBUG - Update executed: 
+                CREATE TABLE IF NOT EXISTS entities (
+                    id INTEGER PRIMARY KEY AU... affected -1 rows
+2025-10-31 04:34:26,160 - shared_logger.sqlite_db - INFO - Database tables created successfully
+2025-10-31 04:34:26,160 - shared_logger.milvus_db - INFO - Milvus client initialized successfully with URL: http://localhost:19530
+2025-10-31 04:34:26,161 - shared_logger.milvus_db - INFO - Field schema created with 4 fields
+2025-10-31 04:34:26,161 - shared_logger.milvus_db - INFO - Collection schema created: 
+2025-10-31 04:34:26,161 - shared_logger.milvus_db - INFO - Index parameters created: FLAT with COSINE
+2025-10-31 04:34:26,165 - shared_logger.milvus_db - INFO - Collection 'documents' has 15 rows
+2025-10-31 04:34:26,165 - shared_logger.milvus_db - INFO - Collection 'documents' exists with 15 rows. Skipping.
+2025-10-31 04:34:26,165 - shared_logger.milvus_db - INFO - Database 'documents' created successfully.
+2025-10-31 04:34:29,124 - shared_logger.entity_extraction - INFO - Loading spaCy model: en_core_web_sm...
+2025-10-31 04:34:39,360 - shared_logger.sqlite_db - INFO - SQLite database initialized at: documents.db
+2025-10-31 04:34:39,371 - shared_logger.milvus_db - INFO - Milvus client initialized successfully with URL: http://localhost:19530
+2025-10-31 04:34:39,385 - shared_logger.sqlite_db - INFO - SQLite database initialized at: documents.db
+2025-10-31 04:34:39,388 - shared_logger.sqlite_db - DEBUG - Update executed: 
+                CREATE TABLE IF NOT EXISTS documents (
+                    id INTEGER PRIMARY KEY, ... affected -1 rows
+2025-10-31 04:34:39,393 - shared_logger.sqlite_db - DEBUG - Update executed: 
+                CREATE TABLE IF NOT EXISTS entities (
+                    id INTEGER PRIMARY KEY AU... affected -1 rows
+2025-10-31 04:34:39,393 - shared_logger.sqlite_db - INFO - Database tables created successfully
+2025-10-31 04:34:39,394 - shared_logger.milvus_db - INFO - Milvus client initialized successfully with URL: http://localhost:19530
+2025-10-31 04:34:39,394 - shared_logger.milvus_db - INFO - Field schema created with 4 fields
+2025-10-31 04:34:39,394 - shared_logger.milvus_db - INFO - Collection schema created: 
+2025-10-31 04:34:39,394 - shared_logger.milvus_db - INFO - Index parameters created: FLAT with COSINE
+2025-10-31 04:34:39,397 - shared_logger.milvus_db - INFO - Collection 'documents' has 15 rows
+2025-10-31 04:34:39,397 - shared_logger.milvus_db - INFO - Collection 'documents' exists with 15 rows. Skipping.
+2025-10-31 04:34:39,397 - shared_logger.milvus_db - INFO - Database 'documents' created successfully.
+2025-10-31 04:34:41,553 - shared_logger.entity_extraction - INFO - Loading spaCy model: en_core_web_sm...
+2025-10-31 04:34:51,259 - shared_logger.sqlite_db - INFO - SQLite database initialized at: documents.db
+2025-10-31 04:34:51,283 - shared_logger.milvus_db - INFO - Milvus client initialized successfully with URL: http://localhost:19530
+2025-10-31 04:34:51,293 - shared_logger.sqlite_db - INFO - SQLite database initialized at: documents.db
+2025-10-31 04:34:51,296 - shared_logger.sqlite_db - DEBUG - Update executed: 
+                CREATE TABLE IF NOT EXISTS documents (
+                    id INTEGER PRIMARY KEY, ... affected -1 rows
+2025-10-31 04:34:51,300 - shared_logger.sqlite_db - DEBUG - Update executed: 
+                CREATE TABLE IF NOT EXISTS entities (
+                    id INTEGER PRIMARY KEY AU... affected -1 rows
+2025-10-31 04:34:51,301 - shared_logger.sqlite_db - INFO - Database tables created successfully
+2025-10-31 04:34:51,302 - shared_logger.milvus_db - INFO - Milvus client initialized successfully with URL: http://localhost:19530
+2025-10-31 04:34:51,302 - shared_logger.milvus_db - INFO - Field schema created with 4 fields
+2025-10-31 04:34:51,302 - shared_logger.milvus_db - INFO - Collection schema created: 
+2025-10-31 04:34:51,303 - shared_logger.milvus_db - INFO - Index parameters created: FLAT with COSINE
+2025-10-31 04:34:51,305 - shared_logger.milvus_db - INFO - Collection 'documents' has 15 rows
+2025-10-31 04:34:51,305 - shared_logger.milvus_db - INFO - Collection 'documents' exists with 15 rows. Skipping.
+2025-10-31 04:34:51,305 - shared_logger.milvus_db - INFO - Database 'documents' created successfully.
+2025-10-31 04:34:53,490 - shared_logger.entity_extraction - INFO - Loading spaCy model: en_core_web_sm...
+2025-10-31 04:35:02,027 - shared_logger.sqlite_db - INFO - SQLite database initialized at: documents.db
+2025-10-31 04:35:02,038 - shared_logger.milvus_db - INFO - Milvus client initialized successfully with URL: http://localhost:19530
+2025-10-31 04:35:02,051 - shared_logger.sqlite_db - INFO - SQLite database initialized at: documents.db
+2025-10-31 04:35:02,055 - shared_logger.sqlite_db - DEBUG - Update executed: 
+                CREATE TABLE IF NOT EXISTS documents (
+                    id INTEGER PRIMARY KEY, ... affected -1 rows
+2025-10-31 04:35:02,060 - shared_logger.sqlite_db - DEBUG - Update executed: 
+                CREATE TABLE IF NOT EXISTS entities (
+                    id INTEGER PRIMARY KEY AU... affected -1 rows
+2025-10-31 04:35:02,061 - shared_logger.sqlite_db - INFO - Database tables created successfully
+2025-10-31 04:35:02,061 - shared_logger.milvus_db - INFO - Milvus client initialized successfully with URL: http://localhost:19530
+2025-10-31 04:35:02,061 - shared_logger.milvus_db - INFO - Field schema created with 4 fields
+2025-10-31 04:35:02,062 - shared_logger.milvus_db - INFO - Collection schema created: 
+2025-10-31 04:35:02,062 - shared_logger.milvus_db - INFO - Index parameters created: FLAT with COSINE
+2025-10-31 04:35:02,065 - shared_logger.milvus_db - INFO - Collection 'documents' has 15 rows
+2025-10-31 04:35:02,066 - shared_logger.milvus_db - INFO - Collection 'documents' exists with 15 rows. Skipping.
+2025-10-31 04:35:02,066 - shared_logger.milvus_db - INFO - Database 'documents' created successfully.
+2025-10-31 04:35:04,440 - shared_logger.entity_extraction - INFO - Loading spaCy model: en_core_web_sm...
+2025-10-31 04:35:24,994 - shared_logger.sqlite_db - INFO - SQLite database initialized at: documents.db
+2025-10-31 04:35:25,010 - shared_logger.milvus_db - INFO - Milvus client initialized successfully with URL: http://localhost:19530
+2025-10-31 04:35:25,039 - shared_logger.sqlite_db - INFO - SQLite database initialized at: documents.db
+2025-10-31 04:35:25,048 - shared_logger.sqlite_db - DEBUG - Update executed: 
+                CREATE TABLE IF NOT EXISTS documents (
+                    id INTEGER PRIMARY KEY, ... affected -1 rows
+2025-10-31 04:35:25,057 - shared_logger.sqlite_db - DEBUG - Update executed: 
+                CREATE TABLE IF NOT EXISTS entities (
+                    id INTEGER PRIMARY KEY AU... affected -1 rows
+2025-10-31 04:35:25,058 - shared_logger.sqlite_db - INFO - Database tables created successfully
+2025-10-31 04:35:25,058 - shared_logger.milvus_db - INFO - Milvus client initialized successfully with URL: http://localhost:19530
+2025-10-31 04:35:25,059 - shared_logger.milvus_db - INFO - Field schema created with 4 fields
+2025-10-31 04:35:25,059 - shared_logger.milvus_db - INFO - Collection schema created: 
+2025-10-31 04:35:25,059 - shared_logger.milvus_db - INFO - Index parameters created: FLAT with COSINE
+2025-10-31 04:35:25,063 - shared_logger.milvus_db - INFO - Collection 'documents' has 15 rows
+2025-10-31 04:35:25,063 - shared_logger.milvus_db - INFO - Collection 'documents' exists with 15 rows. Skipping.
+2025-10-31 04:35:25,064 - shared_logger.milvus_db - INFO - Database 'documents' created successfully.
+2025-10-31 04:35:27,202 - shared_logger.entity_extraction - INFO - Loading spaCy model: en_core_web_sm...
