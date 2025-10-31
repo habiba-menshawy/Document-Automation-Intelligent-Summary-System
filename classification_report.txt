@@ -1,0 +1,13 @@
+HYBRID MODEL (Vision + Text)
+Test Accuracy: 0.8994
+======================================================================
+
+              precision    recall  f1-score   support
+
+       Email     1.0000    1.0000    1.0000        54
+      Report     0.8936    0.7925    0.8400        53
+  Scientific     0.8103    0.9038    0.8545        52
+
+    accuracy                         0.8994       159
+   macro avg     0.9013    0.8988    0.8982       159
+weighted avg     0.9025    0.8994    0.8991       159
