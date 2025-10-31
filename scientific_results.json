@@ -1,0 +1,1210 @@
+[
+  {
+    "image_path": "../archive/dataset/Scientific/0013165452.jpg",
+    "result": {
+      "ocr_text": "2.\nInhalation of Benzypyrene and Cancer in Man\nby\nE. Cuyler Hammond, Sc.D.*\nIrving J. Selikoff, M.D.**\nPatrick J. Lawther, M.D.***\nBoth cigarette smoke and polluted urban air contain very small amounts\nof benzo(a)pyrene, or BaP, a substance which is carcinogenic to experimental\nanimals if relatively large amounts are applied in certain ways such as skin\npainting or subcutaneous injection. This suggested the possibility that the BaP\nin cigarette smoke might account for the high degree of association between\ncigarette smoking and lung cancer; and it suggested the possibility that BaP\npollution of urban air might perhaps increase the risk of lung cancer.\nWynder and Hoffman found an average of 2.5 micrograms of BaP in the\nsmoke from lo0 American cigarettes smoked mechanically. Based upon this, it\nwould appear that even during; a lifetime of heavy cigarette smoking, the con-\ncentration of BaP per square centimeter of bronchial tissue over which it might\nbe spread would be extremely small as compared with the dose required to produce\nskin cancer in mice.\nThe concentration of BaP in the air of large American cities is\nreported to vary from about 0.3 to 6.0 micrograms per I,ooo cubic meters in\nsummer and from 6.0 to as high as 74.0 in winter. The air of British cities is\nin winter\nmore heavily contaminated with BaP. In some British cities/it varies from 73.0\n. to as high as I7o.0 micrograms per I,ooo cubic meters of air. During the course\nof a year, non-smokers living in some of these cities probably inhale far more\nA paper presented at the First Fall Scientific Assembly of the American College of Chest\nPhysicians, Chicago, Illinois on October 30, 1969.\n-* Department of Epidemiology & Statistics of the American Cancer Society, ** Environmental\nSciences Laboratory of the Mt. Sinai School of Medicine, *** Air Pollution Research Unit of\nSt. Bartholomer's Hospital Medical College, ondon, England.\n690029946",
+      "classification": {
+        "predicted_class": "Scientific",
+        "confidence": 0.9599106311798096
+      },
+      "entities": [
+        {
+          "text": "Benzypyrene",
+          "label": "ORG",
+          "start": 17,
+          "end": 28,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Cancer",
+          "label": "PERSON",
+          "start": 33,
+          "end": 39,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "E. Cuyler Hammond",
+          "label": "PERSON",
+          "start": 50,
+          "end": 67,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Irving J. Selikoff",
+          "label": "PERSON",
+          "start": 76,
+          "end": 94,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "M.D.",
+          "label": "GPE",
+          "start": 96,
+          "end": 100,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Patrick J. Lawther",
+          "label": "PERSON",
+          "start": 103,
+          "end": 121,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "BaP",
+          "label": "ORG",
+          "start": 224,
+          "end": 227,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Wynder",
+          "label": "PERSON",
+          "start": 660,
+          "end": 666,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Hoffman",
+          "label": "PERSON",
+          "start": 671,
+          "end": 678,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "American",
+          "label": "NORP",
+          "start": 743,
+          "end": 751,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "summer",
+          "label": "DATE",
+          "start": 1205,
+          "end": 1211,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "winter",
+          "label": "DATE",
+          "start": 1247,
+          "end": 1253,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "British",
+          "label": "NORP",
+          "start": 1266,
+          "end": 1273,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "I7o.0",
+          "label": "ORG",
+          "start": 1389,
+          "end": 1394,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "a year",
+          "label": "DATE",
+          "start": 1458,
+          "end": 1464,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "the First Fall Scientific Assembly",
+          "label": "ORG",
+          "start": 1555,
+          "end": 1589,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "the American College of Chest\nPhysicians",
+          "label": "ORG",
+          "start": 1593,
+          "end": 1633,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Chicago",
+          "label": "GPE",
+          "start": 1635,
+          "end": 1642,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Illinois",
+          "label": "GPE",
+          "start": 1644,
+          "end": 1652,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "October 30, 1969",
+          "label": "DATE",
+          "start": 1656,
+          "end": 1672,
+          "confidence": 0.9,
+          "method": "regex"
+        },
+        {
+          "text": "Department of Epidemiology & Statistics",
+          "label": "ORG",
+          "start": 1677,
+          "end": 1716,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "the American Cancer Society",
+          "label": "ORG",
+          "start": 1720,
+          "end": 1747,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "the Mt. Sinai School of Medicine",
+          "label": "ORG",
+          "start": 1789,
+          "end": 1821,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "St. Bartholomer's",
+          "label": "ORG",
+          "start": 1858,
+          "end": 1875,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Hospital Medical College",
+          "label": "ORG",
+          "start": 1876,
+          "end": 1900,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "England",
+          "label": "GPE",
+          "start": 1909,
+          "end": 1916,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "690029946",
+          "label": "DATE",
+          "start": 1918,
+          "end": 1927,
+          "confidence": 0.85,
+          "method": "spacy"
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "../archive/dataset/Scientific/01142172_01142173.jpg",
+    "result": {
+      "ocr_text": "gh in cigarette filter research.\nUsing the tiny amphibians as test animals, scientists at Lorillard Research\ntories have succeeded in developing a highly efficient filter which, for the\ntime, selectively screens out a specific undesirable smoke component.\nThe effeET of\nwhich\nFrog tissue tests showatiat the new filter\\can remove up to 9o per cent of\n-\nRiqaneTle\nile substance -- phenol -- found in some smoke. While it took several years\naboration by many scientific specialists to develop the improved micronite\nthe hero of this complex research was Rana Pipens, .the common grass frog.\ntarting point for the scientists was the remarkable \"sweeping\" system\nannmals\nes the respiratory tracts of both man and frogs -- the microscopic hairs\nlia. In their constant sweeping back and forth, frog cilia are identical\nwarm bloode d mials\nouth and esophagus of the frog in their effort to measure certain effects\nposure on living tissues. They observed that specks of carbon placed at\n+\na specimen of frog tissue are carried to the opposite end on mucus\nopelled by cilia.\nated studies clearly showed that the greater the phenol content of\nreater the depression of ciliary beating and retardation of mucus\nfindings strongly suggest that phenol is the major, if not the only,\nsing agent in smoke and that its removal is highly desirable.\nrom smoke particles. One particular additive incorporated into a\nmore\n\u2022",
+      "classification": {
+        "predicted_class": "Scientific",
+        "confidence": 0.9527162909507751
+      },
+      "entities": [
+        {
+          "text": "Lorillard Research",
+          "label": "ORG",
+          "start": 90,
+          "end": 108,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "filter\\can",
+          "label": "NORP",
+          "start": 312,
+          "end": 322,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "9o per cent",
+          "label": "MONEY",
+          "start": 336,
+          "end": 347,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "RiqaneTle",
+          "label": "ORG",
+          "start": 353,
+          "end": 362,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "several years",
+          "label": "DATE",
+          "start": 425,
+          "end": 438,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Rana Pipens",
+          "label": "PERSON",
+          "start": 552,
+          "end": 563,
+          "confidence": 0.85,
+          "method": "spacy"
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "../archive/dataset/Scientific/01190197_01190199.jpg",
+    "result": {
+      "ocr_text": "TEIOAAS\n}\nropum peArsqO\no4 600350p S a0 30s\nc ae to cn moe  \nut\nBUt\nT0 083 uL\nSEM ORYBA STUL\nCHOWS ALLANAOIO\n.2\n.\n4;3\n4\n:\n--2\nVITIO\nit\nDOYA NO\nCELVEL O BOMAAE H\nAND UNTREATED\nC\n\none 30 cc. sample of the diluted\nBurpunxe\nmotod poqtaos\n:\ns\npue\n$s-{{}$\nBy means of a 30 cc. hypodermic syringe.\n2l\nof cigAretTe SmOke frOm OLD GOLD sTRAIGHTS and\nmradx3\nean ceqe\nTor o \ntetin\n30 9godand\nthis baffle is to mix the smoke as it is drawn\n5\nBuL\nchamber with the air already present.\nud\nlighted cigarette was placed in the holder.\nTheresophagus of a -frog was removed,\"alit longitudinally and\nou\nx\nmagnification before application of smoke.\npaan\nheld tlat on a small piece of cork by ahort pins.  The tiasue was\nwaahed with Locke!s solution (buffer) .and dusted with finely\npowdered carbon. The sample thus prepared was placed in the\nomaller portion of a lucite box consisting of two chambers.\ncharber, which io connected to the amaller one by a glaas tube,\n30 ce. puffs of smoke were drawn into the larger chamber.\nby means of the same syringe,\nsmoke was drawn through the connecting",
+      "classification": {
+        "predicted_class": "Scientific",
+        "confidence": 0.8869214653968811
+      },
+      "entities": [
+        {
+          "text": "T0 083",
+          "label": "DATE",
+          "start": 68,
+          "end": 74,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Burpunxe",
+          "label": "GPE",
+          "start": 211,
+          "end": 219,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "SmOke",
+          "label": "NORP",
+          "start": 307,
+          "end": 312,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Tor",
+          "label": "ORG",
+          "start": 357,
+          "end": 360,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "puffs",
+          "label": "PERSON",
+          "start": 953,
+          "end": 958,
+          "confidence": 0.85,
+          "method": "spacy"
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "../archive/dataset/Scientific/01193262_01193288.jpg",
+    "result": {
+      "ocr_text": "AESTRACI\nA fynthotic matorial adapted for use in-emoking producte\n\u00b7is prepared by the combination of a combustible material, such\nas carboxymethyi-cellulose with a portion of a fiiler material.\nDISCLOSURE\nThe presont invention is a Continuation-In-Part-of Serial\nNo.-696,699, filed January 10, 1968, -entitled \"Gmoke-Pilters\".\nThe present invention relates generally to smoking producte\nand more specifically to synthetic materiale suitable af tobacge\nsubatitutes,\nIt is well known that tobacce snoking, while a widespread\npractice, may tend to have undesirable effects-on the smoker's\nhealth. These effecta are believed' to be attributable to the\npresence_in the tobacco smoke of various components, which-if\ninspired in-significant amounts over a peried of time may-yield\nharmful effecta. -For a considerabie number of years, attempta\n20:-, have been made to reduce amounts-of these_componente in tobacce\nsmoke.' -Recent emphasis by governmental agencies has reaulted\nin increased activity in-this area.\n-Essentially, two-approaches have been taken in attempting\nto find a solution to thia problem. Firet, attempts have been\ncade to remove certain-components by filtration of the smoke\nthrough a material such as paper or cellulose acetate filamenta.\nTo date, the most significant gains in overcoming the aforesaid\nproblen have been achieved by this technique.\nfor all or a portion of the tobacso a-material which yieids\nK2O",
+      "classification": {
+        "predicted_class": "Scientific",
+        "confidence": 0.8944788575172424
+      },
+      "entities": [
+        {
+          "text": "Continuation-In-Part-of",
+          "label": "ORG",
+          "start": 232,
+          "end": 255,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "January 10, 1968",
+          "label": "DATE",
+          "start": 282,
+          "end": 298,
+          "confidence": 0.9,
+          "method": "regex"
+        },
+        {
+          "text": "Gmoke-Pilters",
+          "label": "WORK_OF_ART",
+          "start": 311,
+          "end": 324,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "attempta\n20:-",
+          "label": "PERSON",
+          "start": 828,
+          "end": 841,
+          "confidence": 0.85,
+          "method": "spacy"
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "../archive/dataset/Scientific/1000027365.jpg",
+    "result": {
+      "ocr_text": "AN OVERVIEW OF THE VAPOR PHASE, SEMIVOLATILE\n. AND NONVOLATILE\nE COMPONENTS OF CIGARETTE SMOKE\nVello Norman\nResearch Department\nLiggett & Myers Tobacco Company\nDurham, North Carolina\n27702\nIntroduction\nFour previous major reviews on the composition of cigarette\nsmoke have been published by Johnstone and Plimmer in l959 (30),\nStedman in 1968 (67), on the vapor phase of smoke by Elmenhorst\nand Schultz in 1968 (1.2) and on nitrogenous smoke components by\nNeurath in 1969 (46). The 1967 book by Wynder and Hoffmann (76)\nalso reviews the composition of smoke, principally from the\nbiological point of view.\nAfter the appearance of each of these reviews more and more\nsophisticated analytical chemical technology has been developed\nand applied to smoke analysis and hence the number of compounds\nreported has increased tremendously. At the same time, the quan-\ntitative aspects of smoking methodology have been quite widely\nrecognized by the workers in the field and virtually all of the\ntit\nmore recent publications adhere rather closely to the accepted\nstandard conditions of cigarette preparation and smoking-\nAnother event of great significance to those who aspire to\nmake quantitative comparisons was the emergence of the Kentucky\nQ000027365\nlRl Reference cigarette in l969. The lRl is widely accepted as\na standard cigarette and very commendably, many authors, whenever\nthey have worked at developing procedures for the determination",
+      "classification": {
+        "predicted_class": "Scientific",
+        "confidence": 0.9635563492774963
+      },
+      "entities": [
+        {
+          "text": "SEMIVOLATILE",
+          "label": "ORG",
+          "start": 32,
+          "end": 44,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "NONVOLATILE",
+          "label": "ORG",
+          "start": 51,
+          "end": 62,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Vello Norman\n",
+          "label": "PERSON",
+          "start": 95,
+          "end": 108,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Liggett & Myers Tobacco Company\nDurham, North Carolina\n",
+          "label": "ORG",
+          "start": 128,
+          "end": 183,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Johnstone",
+          "label": "PERSON",
+          "start": 291,
+          "end": 300,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Plimmer",
+          "label": "PERSON",
+          "start": 305,
+          "end": 312,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Stedman",
+          "label": "PERSON",
+          "start": 327,
+          "end": 334,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "1968",
+          "label": "DATE",
+          "start": 338,
+          "end": 342,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Elmenhorst",
+          "label": "PERSON",
+          "start": 380,
+          "end": 390,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Schultz",
+          "label": "PERSON",
+          "start": 395,
+          "end": 402,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Neurath",
+          "label": "ORG",
+          "start": 456,
+          "end": 463,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "1969",
+          "label": "DATE",
+          "start": 467,
+          "end": 471,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "46",
+          "label": "DATE",
+          "start": 473,
+          "end": 475,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "1967",
+          "label": "DATE",
+          "start": 482,
+          "end": 486,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Wynder",
+          "label": "PERSON",
+          "start": 495,
+          "end": 501,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Hoffmann",
+          "label": "PERSON",
+          "start": 506,
+          "end": 514,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "76",
+          "label": "DATE",
+          "start": 516,
+          "end": 518,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Kentucky",
+          "label": "GPE",
+          "start": 1225,
+          "end": 1233,
+          "confidence": 0.85,
+          "method": "spacy"
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "../archive/dataset/Scientific/1000121813.jpg",
+    "result": {
+      "ocr_text": "+DENTRL\n=R\nNOT YET\n11.\nPUBLISHED\nW.FINK\nIN TOBACCO PRODUCTS\n1\nDietrich Hoffmann, John D. Adams,\nKlaus D. Brunnemann and Stephen S. Hecht\nDivision of Environmental Carcinogenesis\nylor Dana Institute for Disease Prevention\nAmerican Health Foundation\nValhalla, New York 10595\nported by National Cancer Institute\nitract N0l-CP-55666 and American Cancer\niety Grant No. BC56 - The Alexander Ralston\ncock Memorial Grant.\nphen S. Hecht is recipient of National Cancer\ntitute Research Career Development Award\nSK04CA00124.\nis paper LXII in the series \"Chemical Studies\nN'-Nitrosonornicotine\n4-(N-methyl-N-nitrosamino)-1-(3-pyridyl)-1-buta\nN'-Nitrosoanabasine\nN'-Nitrosoanatabine\nNitrosodimethylamine\nNitrosopyrrolidine\nHigh performance liquid chromatography\nThermal Energy Analyzer\nred\nAccepted\nSl",
+      "classification": {
+        "predicted_class": "Scientific",
+        "confidence": 0.9100664258003235
+      },
+      "entities": [
+        {
+          "text": "Dietrich Hoffmann",
+          "label": "PERSON",
+          "start": 62,
+          "end": 79,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "John D. Adams",
+          "label": "PERSON",
+          "start": 81,
+          "end": 94,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Klaus D. Brunnemann",
+          "label": "ORG",
+          "start": 96,
+          "end": 115,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Stephen S. Hecht",
+          "label": "PERSON",
+          "start": 120,
+          "end": 136,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Dana Institute for Disease Prevention\nAmerican Health Foundation",
+          "label": "ORG",
+          "start": 183,
+          "end": 247,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Valhalla",
+          "label": "PERSON",
+          "start": 248,
+          "end": 256,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "New York",
+          "label": "GPE",
+          "start": 258,
+          "end": 266,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "10595",
+          "label": "DATE",
+          "start": 267,
+          "end": 272,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "National Cancer Institute",
+          "label": "ORG",
+          "start": 283,
+          "end": 308,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "N0l",
+          "label": "ORG",
+          "start": 316,
+          "end": 319,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "American Cancer",
+          "label": "ORG",
+          "start": 333,
+          "end": 348,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Grant No. BC56",
+          "label": "GRANT_NUMBER",
+          "start": 354,
+          "end": 368,
+          "confidence": 0.9,
+          "method": "pattern"
+        },
+        {
+          "text": "Alexander Ralston",
+          "label": "PERSON",
+          "start": 375,
+          "end": 392,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Memorial Grant",
+          "label": "PERSON",
+          "start": 398,
+          "end": 412,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "S. Hecht",
+          "label": "PERSON",
+          "start": 419,
+          "end": 427,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "National Cancer",
+          "label": "ORG",
+          "start": 444,
+          "end": 459,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Research Career Development Award\nSK04CA00124",
+          "label": "ORG",
+          "start": 467,
+          "end": 512,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "LXII",
+          "label": "ORG",
+          "start": 523,
+          "end": 527,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Chemical Studies",
+          "label": "ORG",
+          "start": 543,
+          "end": 559,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Thermal Energy Analyzer",
+          "label": "WORK_OF_ART",
+          "start": 749,
+          "end": 772,
+          "confidence": 0.85,
+          "method": "spacy"
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "../archive/dataset/Scientific/1000827761.jpg",
+    "result": {
+      "ocr_text": "I and Development Department\nHome Testing Institute Samples\node AT/O\nMarlboro Cigarettes labeled\n\"Cigarettes made with filler\naged tobacco\".\nReceived November 19, 1963\nANALYTICAL SUMMARY\nThe Marlboro cigarettes with the project\nesignation of Code AT/o are not different from\nne Cl Marlboro (Report #57 - October cigarettes)\nn the characteristics tested with the exception\nf the filter weight. The filter fibers of the\nest Marlboro cigarettes are dogbone shaped and\nighter than the cloverleaf filter fibers of the\nI Marlboro sample.\nDistribution\nR. P. Roper\nDr. H. Wakeham\nH. Cullman\nDr. A. Bavley\nA. C. Britton\nDr. R. B. Seligman\nE. J. Gray\nMr. F. E. Resnik\nC63-00796",
+      "classification": {
+        "predicted_class": "Scientific",
+        "confidence": 0.8275011777877808
+      },
+      "entities": [
+        {
+          "text": "Development Department\nHome Testing Institute Samples",
+          "label": "ORG",
+          "start": 6,
+          "end": 59,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Cigarettes",
+          "label": "ORG",
+          "start": 98,
+          "end": 108,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "November 19, 1963",
+          "label": "DATE",
+          "start": 150,
+          "end": 167,
+          "confidence": 0.9,
+          "method": "regex"
+        },
+        {
+          "text": "Marlboro",
+          "label": "ORG",
+          "start": 191,
+          "end": 199,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "57",
+          "label": "MONEY",
+          "start": 299,
+          "end": 301,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "H. Wakeham",
+          "label": "PERSON",
+          "start": 561,
+          "end": 571,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "H. Cullman",
+          "label": "PERSON",
+          "start": 572,
+          "end": 582,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "A. Bavley\nA. C. Britton",
+          "label": "PERSON",
+          "start": 587,
+          "end": 610,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "R. B. Seligman",
+          "label": "PERSON",
+          "start": 615,
+          "end": 629,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "E. J. Gray",
+          "label": "PERSON",
+          "start": 630,
+          "end": 640,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "F. E. Resnik",
+          "label": "PERSON",
+          "start": 645,
+          "end": 657,
+          "confidence": 0.85,
+          "method": "spacy"
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "../archive/dataset/Scientific/10009243.jpg",
+    "result": {
+      "ocr_text": "Du1\n8.P. Belckn.\nSin\nR\nW ld.2ide tfetuis i the\nS\nBrexthit\nCurareme.\nct\nSEX RATIO OF BRONGHIAL CARCINOMA\n(1963) found that adenocarcinoma was the commonest cell type in both 1\nand women in both surgical and necropsy series. In series from Jamaica (M\nMing 197o) and Kampala (Templeton 197o) the proportions were 30%\n32% respectively. All these figures are very much higher than the proport\nusual in the Europcan countrics, which vary around 15%-\nKreyberg (ig59) pointed out the relationship betwcen the total incide\nof bronchial carcinoma in any given country and the proportion.of ade\ncarcinomas reported: the lower the incidence the higher the proportion\nadenocarcinomas, and thcse figures fit this observation. On the other hand,\n1g't\n12:1\nCutosiqn\nAdigx\nCSowth Amencon\nUH atrcon\nSr\nBtlm\n:\n\nOrqud(rsoy 302)\na\npuqsaipas\n6 vaoy SaN\no  ns\nay asnd\n0341 S |3018\nDrpytob\ns000410s 1]\nIounddu4d\nwvodoburs\nbvoy buow\nDyosnay\nDudijoxs\nosabyr8\nToousa\nDivo\nDansoda\nWnabr4g\nOusuny\n2pou9:\n'5 aind\npuorud\nOn0wd\nin Duod\npu0(1041\n01a0)\nOuojun\nDudJ)\nvotdo)\na4diar\npu0q231\nopudb)\nvsn\nbods\nDiy)\nDosN\niodd4\nx4b3\nwomb)\n41011\nQpui\nSung\n4D1l\njd0sl\nHl)\n\u2191\u2191Fio. r. Sex ratio in 49 countries arranged in decreasingTorder\n\u2191\ntotal incidence of the disease has risen ten-fold in the last 3o years in Tait\n(Yang et al. 196g) and thrcc-fold in the last 1o years in Japan. If the propor\nof adenocarcinoma was solely related to the total incidence of the disease, t\nIt has not.\nP\nTs'o 1963).\nwider study in this Scld might also show a dit",
+      "classification": {
+        "predicted_class": "Scientific",
+        "confidence": 0.8397446274757385
+      },
+      "entities": [
+        {
+          "text": "8.P. Belckn",
+          "label": "PERSON",
+          "start": 4,
+          "end": 15,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Sin",
+          "label": "PERSON",
+          "start": 17,
+          "end": 20,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "1963",
+          "label": "DATE",
+          "start": 105,
+          "end": 109,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Jamaica",
+          "label": "GPE",
+          "start": 238,
+          "end": 245,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Kampala",
+          "label": "GPE",
+          "start": 264,
+          "end": 271,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Templeton",
+          "label": "PERSON",
+          "start": 273,
+          "end": 282,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Europcan",
+          "label": "NORP",
+          "start": 401,
+          "end": 409,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "CSowth Amencon",
+          "label": "PERSON",
+          "start": 756,
+          "end": 770,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "SaN",
+          "label": "ORG",
+          "start": 827,
+          "end": 830,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "asnd\n0341 S |3018\nDrpytob\ns000410s 1",
+          "label": "ORG",
+          "start": 840,
+          "end": 876,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Dyosnay\nDudijoxs\nosabyr8\nToousa\nDivo\nDansoda",
+          "label": "PERSON",
+          "start": 908,
+          "end": 952,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "'5",
+          "label": "DATE",
+          "start": 975,
+          "end": 977,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Duod",
+          "label": "GPE",
+          "start": 999,
+          "end": 1003,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Diy",
+          "label": "PERSON",
+          "start": 1070,
+          "end": 1073,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "\u2191\u2191Fio",
+          "label": "DATE",
+          "start": 1128,
+          "end": 1133,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "r.",
+          "label": "NORP",
+          "start": 1135,
+          "end": 1137,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "the last 3o years",
+          "label": "DATE",
+          "start": 1248,
+          "end": 1265,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Tait",
+          "label": "PERSON",
+          "start": 1269,
+          "end": 1273,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Yang et al",
+          "label": "PERSON",
+          "start": 1275,
+          "end": 1285,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "the last 1o years",
+          "label": "DATE",
+          "start": 1311,
+          "end": 1328,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Japan",
+          "label": "GPE",
+          "start": 1332,
+          "end": 1337,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Scld",
+          "label": "ORG",
+          "start": 1477,
+          "end": 1481,
+          "confidence": 0.85,
+          "method": "spacy"
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "../archive/dataset/Scientific/1001402342.jpg",
+    "result": {
+      "ocr_text": "UTILIZATION\nCOVERED:\nMarch 1-31, 1982\nCT LEADER:\nR. M. McCuen\nOF REPORT:\nApril 1, 1982\nL5178Y THYMIDINE KINASE MUTATION ASSAY1,2\nFrom recent experiments andi a reevaluation of all the data concerning\ntial inactive (negative) chemicals tested in this system, two agents\nesence or absence of microsomal activationi were found to produce no\nenic response while causing a dose related increase in toxicity. The\ncalls demonstrating these effects, and thus were judged to be inactive\nis bioassay, were ethanol and nicotine (tested as nicotine tartrate).\nof these agents have been termed negative in other in vitro and in viv\ns. The importance of this work is that in our laboratories this bioas\nnot show that every agent tested produces a positive biological respon\nny in vitro assay to be useful, it must be able to distinguish between\ncalis which are known to give a positive or negative response in other\nsystems. With these experiments, we now have more confidence in the\n,\nulness of the: L5178Y/Tk+/- bioassay at PM.\nV79: CHINESE HAMSTER CELL MUTATION ASSAY3\nAn excellent dose response was obtained using these cells treated wit\nand hamster liver S9 as the source of activation. As expected, no\nponse was observed in the absence of S9. [In the previous experiment,\ntle or no dose-response was seen with hamster s9 because too high a dose\ntested.] A. second experiment was completed: this month using DmBA and\nrat liver S9 as the source of activation. [Rat liver S9 is the activat\ntem of choice used in other in vitro assays at PM.] The results from th\neriment revealed that, as expected, DMBA was. active only in the presence\nrat liver S9. An almost linear, four point dose response was observed.\n most important finding was that at least for this chemical the shape an\ngnitude of the dose response curve was. almost identical regardless of the\nrce of the microsomal activation (rat or hamster liver S9). This. sugges\nit rat liver S9 can be used in future experiments where metabolic activat\nrequired.\nREFERENCES\n127.120",
+      "classification": {
+        "predicted_class": "Scientific",
+        "confidence": 0.9830378293991089
+      },
+      "entities": [
+        {
+          "text": "March 1-31, 1982",
+          "label": "DATE",
+          "start": 21,
+          "end": 37,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "R. M. McCuen",
+          "label": "PERSON",
+          "start": 49,
+          "end": 61,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "April 1, 1982",
+          "label": "DATE",
+          "start": 73,
+          "end": 86,
+          "confidence": 0.9,
+          "method": "regex"
+        },
+        {
+          "text": "ASSAY1,2",
+          "label": "DOCUMENT_ID",
+          "start": 120,
+          "end": 128,
+          "confidence": 0.9,
+          "method": "pattern"
+        },
+        {
+          "text": "CHINESE HAMSTER CELL MUTATION ASSAY3",
+          "label": "ORG",
+          "start": 1021,
+          "end": 1057,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "S9",
+          "label": "ORG",
+          "start": 1231,
+          "end": 1233,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "this month",
+          "label": "DATE",
+          "start": 1382,
+          "end": 1392,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "DmBA",
+          "label": "ORG",
+          "start": 1399,
+          "end": 1403,
+          "confidence": 0.85,
+          "method": "spacy"
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "../archive/dataset/Scientific/1001402452_2454.jpg",
+    "result": {
+      "ocr_text": "M TITLE:\nBIOLOGICAL EFFECTS OF SMOKE\nCOVERED:\nJANUARY 1-31, 1984\nLEADER:\n.\nC. K. ELLIS\nREPORT:\nFEBRUARY 2, 1984\nBY:\nB. D. DAVIES\nLMONELLA/MICROSOME (S/M) MUTATION ASSAY -- MAINSTREAM AND\nDESTREAM SMOKE MODEL STUDIES (With 6910) (1)\n2R1\nsidestre\nS/m experiment was conducted to\ncompare\nbase fraction (BF), and neutral fraction (Nf) from a sma.\nsmoking (2) (30 cigerettes smoked one at a time) to that\narge scale smoking (3) (l20 cigerettes smoked 30 at a time\ncompar\n98, results obtained for the small scale smoking\nwith\nprevion\nwith data from the large scale smoking and\nes using these same samples. Analysis of the data indicat\nminim\nthe bulk of the activity resides in the BF with\nwi\nity in NF. Data from TAloo also compared favorably\nWhi\nous data and between small and large scale smokings.\nsis of the TAloo data indicated no difference in SS Csc,\nNF activities, the NF from the large scale smoking appear\nactive than that obtained from the small scale smoking.\nThe collaborative study to evaluate MS and SS csCs, BFs, a\nthe\nTo follow up\nfrom five cigarette types was completed.\ndies, an experiment was performed to examine the relationsh\nBFs, and NFs from all five cigarette co\nduplicate ss cscs,\nExamination of the data revealed a close agr\nultaneously.\nt with the previously reported data in that the BFs appea\nPl\ne active than csCs while NFs possessed little activity.\n1 for Taloo to be similarly tested.\nNEUTRALS. (with 6908). (4)\n0001402452\nCurrently, a study to determine Ms/ss activity of\nsubf\nins of neutrals from model cigarettes is in progress.\nDupli\nThe\nple preparations are being tested in TAl0o +/- s9.\nL\nThe objectives of these studies are\ntwot\nociated strip.\niso\ntneutrals and secondly to compare these activities on a",
+      "classification": {
+        "predicted_class": "Scientific",
+        "confidence": 0.9625913500785828
+      },
+      "entities": [
+        {
+          "text": "JANUARY 1-31, 1984",
+          "label": "DATE",
+          "start": 46,
+          "end": 64,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "C. K. ELLIS",
+          "label": "PERSON",
+          "start": 75,
+          "end": 86,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "FEBRUARY 2, 1984",
+          "label": "DATE",
+          "start": 95,
+          "end": 111,
+          "confidence": 0.9,
+          "method": "regex"
+        },
+        {
+          "text": "B. D. DAVIES\n",
+          "label": "PERSON",
+          "start": 116,
+          "end": 129,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "6910",
+          "label": "DATE",
+          "start": 222,
+          "end": 226,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "NF",
+          "label": "ORG",
+          "start": 693,
+          "end": 695,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "TAloo",
+          "label": "ORG",
+          "start": 707,
+          "end": 712,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Whi",
+          "label": "PERSON",
+          "start": 737,
+          "end": 740,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "SS Csc",
+          "label": "ORG",
+          "start": 843,
+          "end": 849,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "MS",
+          "label": "GPE",
+          "start": 1001,
+          "end": 1003,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "NFs",
+          "label": "ORG",
+          "start": 1345,
+          "end": 1348,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "NEUTRALS",
+          "label": "ORG",
+          "start": 1412,
+          "end": 1420,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "6908",
+          "label": "DATE",
+          "start": 1428,
+          "end": 1432,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "0001402452",
+          "label": "DATE",
+          "start": 1439,
+          "end": 1449,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "s9",
+          "label": "PERSON",
+          "start": 1616,
+          "end": 1618,
+          "confidence": 0.85,
+          "method": "spacy"
+        }
+      ]
+    }
+  }
+]

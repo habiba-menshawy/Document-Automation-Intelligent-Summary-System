@@ -1,0 +1,673 @@
+[
+  {
+    "image_path": "../archive/dataset/Email/2063075627.jpg",
+    "result": {
+      "ocr_text": "Ellis, Cathy L. (WSA)\nFrom:\nHsu, Frank\nSent:\nWednesday, March 24, 1999 10:58 AM\nTo:\nEllis, Cathy L. (WSA)\nSubject:\nRE: PLease review asap\n2063075727\nCathy,\nMy comments are in blue. It looks good !\nFrank\nAMNCIGTCORESTA-h\nsu.doe\n\u2014\n--\n\n7",
+      "classification": {
+        "predicted_class": "Email",
+        "confidence": 0.9999942779541016
+      },
+      "entities": [
+        {
+          "text": "Cathy L.",
+          "label": "PERSON",
+          "start": 7,
+          "end": 15,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "WSA",
+          "label": "ORG",
+          "start": 17,
+          "end": 20,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Hsu, Frank",
+          "label": "EMAIL_FROM",
+          "start": 28,
+          "end": 38,
+          "confidence": 0.95,
+          "method": "domain_specific"
+        },
+        {
+          "text": "Wednesday, March 24, 1999 10:58 AM",
+          "label": "DATE",
+          "start": 45,
+          "end": 79,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Ellis, Cathy L. (WSA)",
+          "label": "EMAIL_TO",
+          "start": 84,
+          "end": 105,
+          "confidence": 0.95,
+          "method": "domain_specific"
+        },
+        {
+          "text": "RE: PLease review asap",
+          "label": "EMAIL_SUBJECT",
+          "start": 115,
+          "end": 137,
+          "confidence": 0.95,
+          "method": "domain_specific"
+        },
+        {
+          "text": "2063075727",
+          "label": "DATE",
+          "start": 138,
+          "end": 148,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Frank\nAMNCIGTCORESTA-h",
+          "label": "PERSON",
+          "start": 197,
+          "end": 219,
+          "confidence": 0.85,
+          "method": "spacy"
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "../archive/dataset/Email/2064207054c.jpg",
+    "result": {
+      "ocr_text": "Pabst, Joanne\nFrom:\nKeane, Denise\nSent:\nTuesday, March 09, 1999 1:14 PM\nTo:\nBerfind, Mark\nSubject:\nFDA\ndid you see the Jeff Richmond advocacy piece before it was sent to the wro. if you didn't I intend to call a&p, as I\ndo not want them preparing such pieces unless we see them first.",
+      "classification": {
+        "predicted_class": "Email",
+        "confidence": 0.9999265670776367
+      },
+      "entities": [
+        {
+          "text": "Pabst",
+          "label": "GPE",
+          "start": 0,
+          "end": 5,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Joanne",
+          "label": "PERSON",
+          "start": 7,
+          "end": 13,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Keane, Denise",
+          "label": "EMAIL_FROM",
+          "start": 20,
+          "end": 33,
+          "confidence": 0.95,
+          "method": "domain_specific"
+        },
+        {
+          "text": "Tuesday, March 09, 1999",
+          "label": "DATE",
+          "start": 40,
+          "end": 63,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "1:14 PM",
+          "label": "TIME",
+          "start": 64,
+          "end": 71,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Berfind, Mark",
+          "label": "EMAIL_TO",
+          "start": 76,
+          "end": 89,
+          "confidence": 0.95,
+          "method": "domain_specific"
+        },
+        {
+          "text": "FDA",
+          "label": "EMAIL_SUBJECT",
+          "start": 99,
+          "end": 102,
+          "confidence": 0.95,
+          "method": "domain_specific"
+        },
+        {
+          "text": "Jeff Richmond",
+          "label": "PERSON",
+          "start": 119,
+          "end": 132,
+          "confidence": 0.85,
+          "method": "spacy"
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "../archive/dataset/Email/2064207315c.jpg",
+    "result": {
+      "ocr_text": "ent\nD:\nc:\nubj\nAtta\ner\nfisti\nve\nnar\n.\nhat\ne.g",
+      "classification": {
+        "predicted_class": "Email",
+        "confidence": 0.39756473898887634
+      },
+      "entities": []
+    }
+  },
+  {
+    "image_path": "../archive/dataset/Email/2064213021d.jpg",
+    "result": {
+      "ocr_text": "From:\nGreenberg, David\nSent:\nSaturday, June 27, 1998 10:48 AM\nTo:\nStaunton, Donna\nCc:\nBerlind, Mark\nSubject: RE: I've Got the Power: Attribution Policy\nDonna:\nI'm off to Berlin for Andreas meeting and won't return for ten days. I have been talking\nabout your issues with Mark Berlind and he will call you directly. Keep me posted.\nDavid",
+      "classification": {
+        "predicted_class": "Email",
+        "confidence": 0.999338686466217
+      },
+      "entities": [
+        {
+          "text": "Greenberg, David",
+          "label": "EMAIL_FROM",
+          "start": 6,
+          "end": 22,
+          "confidence": 0.95,
+          "method": "domain_specific"
+        },
+        {
+          "text": "Saturday, June 27, 1998 10:48 AM",
+          "label": "DATE",
+          "start": 29,
+          "end": 61,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Staunton, Donna",
+          "label": "EMAIL_TO",
+          "start": 66,
+          "end": 81,
+          "confidence": 0.95,
+          "method": "domain_specific"
+        },
+        {
+          "text": "Berlind, Mark",
+          "label": "EMAIL_CC",
+          "start": 86,
+          "end": 99,
+          "confidence": 0.95,
+          "method": "domain_specific"
+        },
+        {
+          "text": "RE: I've Got the Power: Attribution Policy",
+          "label": "EMAIL_SUBJECT",
+          "start": 109,
+          "end": 151,
+          "confidence": 0.95,
+          "method": "domain_specific"
+        },
+        {
+          "text": "Donna",
+          "label": "PERSON",
+          "start": 152,
+          "end": 157,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Berlin",
+          "label": "GPE",
+          "start": 170,
+          "end": 176,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Andreas",
+          "label": "GPE",
+          "start": 181,
+          "end": 188,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "ten days",
+          "label": "DATE",
+          "start": 218,
+          "end": 226,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Mark Berlind",
+          "label": "PERSON",
+          "start": 271,
+          "end": 283,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "David",
+          "label": "PERSON",
+          "start": 331,
+          "end": 336,
+          "confidence": 0.85,
+          "method": "spacy"
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "../archive/dataset/Email/2064213091c.jpg",
+    "result": {
+      "ocr_text": "From:\nWoodward, Ellis\nSent:\nTuesday. June 30, 1998 4:43 PM\nTo: Berlind, Mark\nSubject:\nRE: Ad Campaign/JT Request\nWhat I'm inclined to do is give them some of the polls we've released publicly (there are 3) and a tape\nthat has the and 1/2 dozen of our television ads. We can also pull together an audio tape of some of\nthe radio ads, and a few print executions. Is that enough for these dudes?",
+      "classification": {
+        "predicted_class": "Email",
+        "confidence": 0.999909520149231
+      },
+      "entities": [
+        {
+          "text": "Woodward, Ellis",
+          "label": "EMAIL_FROM",
+          "start": 6,
+          "end": 21,
+          "confidence": 0.95,
+          "method": "domain_specific"
+        },
+        {
+          "text": "Tuesday",
+          "label": "DATE",
+          "start": 28,
+          "end": 35,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "June 30, 1998",
+          "label": "DATE",
+          "start": 37,
+          "end": 50,
+          "confidence": 0.9,
+          "method": "regex"
+        },
+        {
+          "text": "Berlind, Mark",
+          "label": "EMAIL_TO",
+          "start": 63,
+          "end": 76,
+          "confidence": 0.95,
+          "method": "domain_specific"
+        },
+        {
+          "text": "RE: Ad Campaign/JT Request",
+          "label": "EMAIL_SUBJECT",
+          "start": 86,
+          "end": 112,
+          "confidence": 0.95,
+          "method": "domain_specific"
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "../archive/dataset/Email/2064334043b.jpg",
+    "result": {
+      "ocr_text": "--Original Message--\u2026\nFrom:\nOsborne, Kevin (PMMC Legal)\nSent:\nFriday, Apri 23, 1999 9:04 AM\nTo:\nHardin, Chris; Rudd, Alisia\nCc:\nLieberman, Pamela D.\nSubject:\nRE: Letter to Minnesota AG\nPRIVILEGED AND CONFIDENTIAL\nAlisia-\nPls. send me the draft leiter first before contacting him. You can put a place-holder in\nthe draft to the effect that he was contacted. I agree w/ you it's a good idea, but I'd like\nto review everything in context before any further contact w/ the consumer. thanks",
+      "classification": {
+        "predicted_class": "Email",
+        "confidence": 0.9999878406524658
+      },
+      "entities": [
+        {
+          "text": "Osborne, Kevin (PMMC Legal)",
+          "label": "EMAIL_FROM",
+          "start": 28,
+          "end": 55,
+          "confidence": 0.95,
+          "method": "domain_specific"
+        },
+        {
+          "text": "Friday",
+          "label": "DATE",
+          "start": 62,
+          "end": 68,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Apri 23, 1999",
+          "label": "DATE",
+          "start": 70,
+          "end": 83,
+          "confidence": 0.9,
+          "method": "regex"
+        },
+        {
+          "text": "9:04 AM",
+          "label": "TIME",
+          "start": 84,
+          "end": 91,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Hardin, Chris; Rudd, Alisia",
+          "label": "EMAIL_TO",
+          "start": 96,
+          "end": 123,
+          "confidence": 0.95,
+          "method": "domain_specific"
+        },
+        {
+          "text": "Lieberman, Pamela D.",
+          "label": "EMAIL_CC",
+          "start": 128,
+          "end": 148,
+          "confidence": 0.95,
+          "method": "domain_specific"
+        },
+        {
+          "text": "RE: Letter to Minnesota AG",
+          "label": "EMAIL_SUBJECT",
+          "start": 158,
+          "end": 184,
+          "confidence": 0.95,
+          "method": "domain_specific"
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "../archive/dataset/Email/2064850090a.jpg",
+    "result": {
+      "ocr_text": "Tom: A\nubject:\n83\n1\nGilb\n\nFile(s): \nacquie,\nEnclosed\nacceptab\ncommun",
+      "classification": {
+        "predicted_class": "Scientific",
+        "confidence": 0.660173773765564
+      },
+      "entities": [
+        {
+          "text": "Tom",
+          "label": "PERSON",
+          "start": 0,
+          "end": 3,
+          "confidence": 0.85,
+          "method": "spacy"
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "../archive/dataset/Email/2064936813.jpg",
+    "result": {
+      "ocr_text": "rillo, Joe\nm:\nArbetter, Louis\nnt:\nTuesday, July 28, 1998 8:04 PM\nMoore, Jay T.; Nedeltscheff, Oiga\nMurillo, Joe; Reale, Anthony; Mulilgan, Kathleen\nbject:\nRE: IV-508 MU 99\nst received some new pricing information which alters the forecast I sent earler today. Some Items have decreased in\nst considerably, due to the negotiating prowess of our purchasing department. The revised forecast is attached.\nMursa Fonscast\n\nn:\nArbetter, Louis\nt:\nTuesday, July 28, 1998 12:58 PM\nMoore, Jay T.Nadeltscheff, Oiga\nMurlio, Joe; Reale, Anthony; Muliigan, Kathieen\nJect:\nRE: IV-508 MU 99\n attached document details the estimated forecasts for MU'99. These are slightly different from the forecasts I sent\n2. Unfortunately, final forecast numbers will not be avallable for another two weeks.\nFile: MU'99 Forecast.x(s>>\nREDACTED\nL\n\u00d7\n2064936813\n1",
+      "classification": {
+        "predicted_class": "Email",
+        "confidence": 0.9993215799331665
+      },
+      "entities": [
+        {
+          "text": "Joe",
+          "label": "PERSON",
+          "start": 7,
+          "end": 10,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Louis",
+          "label": "GPE",
+          "start": 24,
+          "end": 29,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Tuesday, July 28, 1998",
+          "label": "DATE",
+          "start": 34,
+          "end": 56,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "8:04 PM\nMoore",
+          "label": "TIME",
+          "start": 57,
+          "end": 70,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Jay T.",
+          "label": "PERSON",
+          "start": 72,
+          "end": 78,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Nedeltscheff",
+          "label": "ORG",
+          "start": 80,
+          "end": 92,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Reale",
+          "label": "ORG",
+          "start": 113,
+          "end": 118,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Anthony; Mulilgan",
+          "label": "PERSON",
+          "start": 120,
+          "end": 137,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Kathleen",
+          "label": "PERSON",
+          "start": 139,
+          "end": 147,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "today",
+          "label": "DATE",
+          "start": 253,
+          "end": 258,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Items",
+          "label": "NORP",
+          "start": 265,
+          "end": 270,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Mursa Fonscast",
+          "label": "ORG",
+          "start": 401,
+          "end": 415,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Tuesday, July 28, 1998 12:58",
+          "label": "DATE",
+          "start": 439,
+          "end": 467,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Jay",
+          "label": "PERSON",
+          "start": 478,
+          "end": 481,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Anthony",
+          "label": "PERSON",
+          "start": 523,
+          "end": 530,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Muliigan",
+          "label": "GPE",
+          "start": 532,
+          "end": 540,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "MU'99",
+          "label": "ORG",
+          "start": 629,
+          "end": 634,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "another two weeks",
+          "label": "DATE",
+          "start": 758,
+          "end": 775,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "2064936813",
+          "label": "PHONE",
+          "start": 817,
+          "end": 827,
+          "confidence": 0.85,
+          "method": "regex"
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "../archive/dataset/Email/2067227128.jpg",
+    "result": {
+      "ocr_text": "From:\nW\nSent:\nM\nro:\nRc\nSubject:\nSC\nDear Hans and Debbie,\nn order to be prepared to any ir\nnat a holding statement be prep\nStart and end of clinical trial\nNumber and characteristics\nLocations of trial\nCRO and principal investiga\nHow is addressed that subje\nHow does the test smoking\nWhat is the purpose of the",
+      "classification": {
+        "predicted_class": "Email",
+        "confidence": 0.9089657068252563
+      },
+      "entities": [
+        {
+          "text": "W",
+          "label": "EMAIL_FROM",
+          "start": 6,
+          "end": 7,
+          "confidence": 0.95,
+          "method": "domain_specific"
+        },
+        {
+          "text": "SC",
+          "label": "EMAIL_SUBJECT",
+          "start": 32,
+          "end": 34,
+          "confidence": 0.95,
+          "method": "domain_specific"
+        },
+        {
+          "text": "Debbie",
+          "label": "ORG",
+          "start": 49,
+          "end": 55,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "CRO",
+          "label": "ORG",
+          "start": 200,
+          "end": 203,
+          "confidence": 0.85,
+          "method": "spacy"
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "../archive/dataset/Email/2067238739.jpg",
+    "result": {
+      "ocr_text": "rom:\nSuter, Norma\nnt:\nMonday, October 07, 2002 3:03 PM\nBrite, Jane (Young & Rubicam)\ntwo things\nou?\nI was wondering if you have: 1a draft of the fee letter for 2002: and a 2proposal for 2003, w",
+      "classification": {
+        "predicted_class": "Email",
+        "confidence": 0.9932135343551636
+      },
+      "entities": [
+        {
+          "text": "Norma",
+          "label": "PERSON",
+          "start": 12,
+          "end": 17,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Monday, October 07, 2002 3:03 PM",
+          "label": "DATE",
+          "start": 22,
+          "end": 54,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Brite",
+          "label": "GPE",
+          "start": 55,
+          "end": 60,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Jane",
+          "label": "PERSON",
+          "start": 62,
+          "end": 66,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "2002",
+          "label": "DATE",
+          "start": 160,
+          "end": 164,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "2003",
+          "label": "DATE",
+          "start": 186,
+          "end": 190,
+          "confidence": 0.85,
+          "method": "spacy"
+        }
+      ]
+    }
+  }
+]

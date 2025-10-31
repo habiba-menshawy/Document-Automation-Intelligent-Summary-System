@@ -1,0 +1,1034 @@
+[
+  {
+    "image_path": "../archive/dataset/Report/0000958516.jpg",
+    "result": {
+      "ocr_text": "By W. K. Collins\nAn in-depth look at the primary ingredient that\naffecrs your business.\nomponent which provides the physiological stimuiation that makes a person a compulsive\nnoker.\nortunately, the Surgeon General's report on tobacco and health gave nicotine a clean bili\nhealth.\nbacco manufacturers regulate the level of nicotine in their products very closely. Costs\ntobacco going into a product and nicotine Ievel of the final product reccive top attanti\ncigarettes are nade. Over a period of time the percentage of nicotine in products may\nry, but abrupt changes are avoided. lisually it takes a 15% to 20% change for a signifi-\nnt part of the public to detect it. Nevertheless, it's taboo within the industry to make\nnecessary changes.\ne nicotine level in most best selling cigarettes is currently somewhere between l.5% and 2%.\nme cigarettes are available with much less nicotine, with 28% of the market in l977\nnsidered low nicotine. High-nicotine cigarettes also fail to attract and keep many smokers.\ne lack of nicotine in so-called no-nicotine cigarettes has surely played a major role in\ne downfall of these products.\nere's a definite correlation between the level of niatine in tobacco and its arora or\neasing qualities during combustion. Low-nicotine tobaccos usually are weak flavored.\ngh-nicotine tobaccos are too scrong for most American smokers. when our forefathers cone\nthis country they found the Indians smoking high-nicotine (about lo%) tobaccos. The\nba\u00e7cos were simply too strong fer our people.\ndending\" is the main method used by manufacturers to regulate the desired nicotine level\ntobacco products. The basic blend of our cigarettes is composed of four classes of\npacco, each of which has distinct prcperties. In l976 the average percentage of each\nass of tobacco used in cigarettes was: flue-cured, 46%, Burley, 34%;\nMaryland, .2%;\n imported, 18%.\notine contributed by thu flue-cured portion of the blrnd is controlled by using tobacco\nwn in different years, from difforent production areas of the Belt, and from different\n1k positions. Nicotine content of tobacco grown in different years and production areas\nies considerably. It's mainly relatcd to rainfall.\nt of the 60 species of tobacco are very low in nicotine. (we'll define a species as 's\npanies are currently underway to make synthetic cigarettes with nicotine added.\n576106781",
+      "classification": {
+        "predicted_class": "Report",
+        "confidence": 0.9911995530128479
+      },
+      "entities": [
+        {
+          "text": "W. K. Collins",
+          "label": "PERSON",
+          "start": 3,
+          "end": 16,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "the Surgeon General's",
+          "label": "ORG",
+          "start": 194,
+          "end": 215,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "tobaccos",
+          "label": "PERSON",
+          "start": 1264,
+          "end": 1272,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "American",
+          "label": "NORP",
+          "start": 1345,
+          "end": 1353,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Indians",
+          "label": "NORP",
+          "start": 1417,
+          "end": 1424,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Burley",
+          "label": "ORG",
+          "start": 1832,
+          "end": 1838,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Maryland",
+          "label": "GPE",
+          "start": 1845,
+          "end": 1853,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "years",
+          "label": "DATE",
+          "start": 1980,
+          "end": 1985,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "576106781",
+          "label": "DATE",
+          "start": 2357,
+          "end": 2366,
+          "confidence": 0.85,
+          "method": "spacy"
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "../archive/dataset/Report/0000972342.jpg",
+    "result": {
+      "ocr_text": "IORANDUM\nSeptemb\n IMPACT STANDARDS/715\nnew series of impact standards has been developed and recently repo\nR&DE, Southampton(I). Although the Southampton approach was expec\nbe an improvement over the chemical standards, we felt that B&w's\nuld still not be met by these new standards. Consequently, we have\nrsuing the development of our own series. Preliminary results are\ncouraging.\nis memo covers my comments on the Southampton Report and the status\nrdevelopmental work.\nAf Comments on R&DE Report RD.8O6-R\nremy Wood's report contains several points of immediate importance i\nw of on-going woODRosE activities and current R&D projects.\nThe new series of nine impact standards are designed to give more\nprecise determinations than the previous standards, covering the\nsame impact sensation range (o to 4 is now I to 9).\nThe filter cigarettes are available from R&DE and Wood makes the\nrecommendaticn that the new standards be used by all panels using\nWOODROSE.\nVery casually in passing, Wood makes the comment that impact \"shou\nbe bascd on the whole cigarette and not merely on the first few pu\nThis is news to me.\nnew series is based on the relationship between extractable nicoti\nivery and impact. The desired levels of impact sensation are produ\nblends of two flue-cured tobaccos, wiiely diifering in nicotine con\nproportions to yield theoretical nicotine deliveries, which give ju\niceable differences (j.n.d.) in impact. Calculations for the tobac\nend formulations are based on the theory that the difference between\nmuli is what is important in determining j.n.d. and nct absolute va\nimpact standards, identified as IMP/l, IMp/2...IMP/9, were evaluat\n\"blind\" panel testing. Ten members scored, by the old scale, adjac\nirs irom memory, i.e., no standards were used. The panel average re\nIts ranged ftom 0.56 for IMP/1 to 3.50 for IMp/9 with all sanples fa\nthe \"ccrrect\" sequence. However, for three of the adjacent pairs,\nWood, D. J., R&DE Report RD.8O6-R, \"Impact Standards - A Series of\nStandards for Assessing Impact on Inhaling,\" \nJune 22, 1971.",
+      "classification": {
+        "predicted_class": "Report",
+        "confidence": 0.9445775151252747
+      },
+      "entities": [
+        {
+          "text": "Septemb\n ",
+          "label": "PERSON",
+          "start": 9,
+          "end": 18,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "R&DE",
+          "label": "ORG",
+          "start": 107,
+          "end": 111,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Southampton",
+          "label": "GPE",
+          "start": 142,
+          "end": 153,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "B&w",
+          "label": "GPE",
+          "start": 233,
+          "end": 236,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "the Southampton Report",
+          "label": "ORG",
+          "start": 413,
+          "end": 435,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Wood",
+          "label": "ORG",
+          "start": 513,
+          "end": 517,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "WOODROSE",
+          "label": "ORG",
+          "start": 951,
+          "end": 959,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "tobaccos",
+          "label": "PERSON",
+          "start": 1274,
+          "end": 1282,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "IMP/l",
+          "label": "ORG",
+          "start": 1621,
+          "end": 1626,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "IMP/9",
+          "label": "GPE",
+          "start": 1636,
+          "end": 1641,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "irs",
+          "label": "ORG",
+          "start": 1723,
+          "end": 1726,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Impact Standards - A Series of\nStandards for Assessing Impact on Inhaling",
+          "label": "WORK_OF_ART",
+          "start": 1962,
+          "end": 2035,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "June 22, 1971",
+          "label": "DATE",
+          "start": 2039,
+          "end": 2052,
+          "confidence": 0.9,
+          "method": "regex"
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "../archive/dataset/Report/0001166781.jpg",
+    "result": {
+      "ocr_text": "The overall objective for the Corporation's domestic marketing\ngroup will be to stop the erosion of the Company's market share\nand reestablish itself in the tobacco industry as a strong and\nviable competitor by stabilizing established brands' share of\nsegment and developing and marketing new products in the mainstream,\nnon-menthol category. To this end, the group's first priority\nwill be to launch BARcLAy nationally, assuming satisfactory test\nmarket performance. Additional new product work will continue on\nfoom other alterabit new product opportunities recognizing both\ncurrent ultra low tar poesibilities as well as new opportunities\nwhich may occur as a consequence of external/environmental changes.\nGiving first priority to the launch of a new brand in no way signals\nan intent to abandon an aggressive posture with respect to efforts\nto minimize the erosion in volume on established brands. KOOL,\nin particular, will be managed with heavy marketing resources\nfocusing on stabilizing the parent in its category and on finding\n\u2026\nthe competitive edge that will give the low tar styles greater\ngrowth potential. The overall objective for the Corporation's\nestablished brands is to produce budgeted or better volume within\ncorporate spending and profit guidelines. In addition, the brands\nmust pursue an aggressive testing program to demonstrate opportunities\nfor investing incremental funds in order to build total share of\nmarket.\n-\nS\nNOTICE\nhe film image ie lees clear than\nnotice, it ie due to the quality\n67702\nhe docuuent baing filmad.\n5\n8\n6",
+      "classification": {
+        "predicted_class": "Report",
+        "confidence": 0.9979910850524902
+      },
+      "entities": [
+        {
+          "text": "Corporation",
+          "label": "ORG",
+          "start": 30,
+          "end": 41,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Company",
+          "label": "ORG",
+          "start": 104,
+          "end": 111,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "BARcLAy",
+          "label": "ORG",
+          "start": 401,
+          "end": 408,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "KOOL",
+          "label": "PERSON",
+          "start": 903,
+          "end": 907,
+          "confidence": 0.85,
+          "method": "spacy"
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "../archive/dataset/Report/0001251167.jpg",
+    "result": {
+      "ocr_text": "\nBROWN & WILLIAMSON TOBACCO CORPORATION\nRESEARCH & DEVELOPMENT\n-3\nFILE NOTE\nSUBJECT:\nPAPER RECON FROM MARLBORO KS AND MARLBORO MENTHOL LIGHTS\n100'S/451\nAUTHOR:\nE. D. Alford\n\nDATE:\nNovember 20, 1987\nCC:\nM. L. Reynoids, T. F. Riehl, C. N. Kounnas, A. McMurtrie,\nD. V. Cantrell. J. H. Lauterbach,.J. F. Nall, W. H. Deines,\nR. R. Johnson, E. F. Litzinger, D. A. Colby, W. R. Conway,\nR. H. Marshall\n?\nSUMMARY\n2\nThe paper recons from Marlboro KS and Marlboro Menthol Lights loo's\nwere found to be different. The paper recon from Marlboro KS\ncontained DAP and therefore exhibited the sugar-armonia products. The\nMarlboro Menthol Lights loo's paper recon did not contain phosphate in\nexcess of the level typically found in PJS where no DAP was added.\nTherefore, the levels of the sugar-anmonia prggucts were much lower\n(80-8s%) in the paper recon from Marlboro Menthol Lights 1oo's.\nIt has not been proven, but the furnish for the two paper recon are\nalso thought to be different. The furnish for the paper recon found\nin Marlboro KS was thought to be heavily skewed toward burley while,\nthe furnish for the Marlboro Menthol Ligbts loo's was thought to be\nskewed toward flue-cured furnish.\nA comparison of the paper and dark recons from Marlboro Ks were also\nmade. This comparison showed that paper recon exhibited most of the\nsugar-ammonia reaction products found in the dark recon and in about\nthe same quantities. The major differences were found in the welatile\nalkyl pyrazines region of the PaT profiles.\nINTRODUCTION\n2\nBob Jobnson bad isolated the paper recon from Marlboro KS and Mariboro\nMenthol Ligbts loo's. These materials, along with the dark recon from\nMarlboro KS, were eramined by purge-and-trap (PaT) and direct\nR\nsilylation (DS) GC-Ms. The combination of both of these analyues\nshoved the volatiles from the alkylpyrazines to deoxyfructosazine and\nfructosaziues. Data from both of the analyses were ueed to reach the\ns\nconclusions drawm in this file note.\n*\n812 76066",
+      "classification": {
+        "predicted_class": "Report",
+        "confidence": 0.8517966866493225
+      },
+      "entities": [
+        {
+          "text": "BROWN & WILLIAMSON",
+          "label": "ORG",
+          "start": 1,
+          "end": 19,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "RESEARCH & DEVELOPMENT\n-3\n",
+          "label": "ORG",
+          "start": 40,
+          "end": 66,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "PAPER RECON FROM MARLBORO KS AND MARLBORO MENTHOL LIGHTS",
+          "label": "EMAIL_SUBJECT",
+          "start": 85,
+          "end": 141,
+          "confidence": 0.95,
+          "method": "domain_specific"
+        },
+        {
+          "text": "E. D. Alford",
+          "label": "PERSON",
+          "start": 160,
+          "end": 172,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "November 20, 1987",
+          "label": "EMAIL_DATE",
+          "start": 180,
+          "end": 197,
+          "confidence": 0.95,
+          "method": "domain_specific"
+        },
+        {
+          "text": "M. L. Reynoids, T. F. Riehl, C. N. Kounnas, A. McMurtrie,",
+          "label": "EMAIL_CC",
+          "start": 202,
+          "end": 259,
+          "confidence": 0.95,
+          "method": "domain_specific"
+        },
+        {
+          "text": "D. V. Cantrell",
+          "label": "PERSON",
+          "start": 260,
+          "end": 274,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "J. H. Lauterbach,",
+          "label": "PERSON",
+          "start": 276,
+          "end": 293,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "J. F. Nall",
+          "label": "PERSON",
+          "start": 294,
+          "end": 304,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "W. H. Deines",
+          "label": "PERSON",
+          "start": 306,
+          "end": 318,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "R. R. Johnson",
+          "label": "PERSON",
+          "start": 320,
+          "end": 333,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "E. F. Litzinger",
+          "label": "PERSON",
+          "start": 335,
+          "end": 350,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "D. A. Colby",
+          "label": "PERSON",
+          "start": 352,
+          "end": 363,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "W. R. Conway",
+          "label": "PERSON",
+          "start": 365,
+          "end": 377,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "R. H. Marshall",
+          "label": "PERSON",
+          "start": 379,
+          "end": 393,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Marlboro KS",
+          "label": "ORG",
+          "start": 428,
+          "end": 439,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Marlboro",
+          "label": "ORG",
+          "start": 444,
+          "end": 452,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "DAP",
+          "label": "ORG",
+          "start": 545,
+          "end": 548,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "PJS",
+          "label": "ORG",
+          "start": 715,
+          "end": 718,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "toward burley",
+          "label": "PERSON",
+          "start": 1059,
+          "end": 1072,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "PaT",
+          "label": "PERSON",
+          "start": 1488,
+          "end": 1491,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Bob Jobnson",
+          "label": "PERSON",
+          "start": 1517,
+          "end": 1528,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "812 76066",
+          "label": "DATE",
+          "start": 1967,
+          "end": 1976,
+          "confidence": 0.85,
+          "method": "spacy"
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "../archive/dataset/Report/0001414986.jpg",
+    "result": {
+      "ocr_text": "L-Glutamine\nCAS RN 56-85-9\nGlutamine\nCAS RN 6899-4-3\nact:\nitamine has been characterized as a nonessential or\nitionally dispensable amino acid but recent studies\nit may be a conditionally essential nutrient, partic\nntially no taste or odor and its main contribution is\nhe production of \"secondary flavorings\" which make th\narance in the course of oxidative or enzymatic action\nalled Maillard-type products are produced when glutar\nracteristic taste and flavor.\nL-Glutamine is listed\nA (#3684) and is approved for\nfood\nuse\nby\nFDA.\nacute or chronic toxicity studies\nfor\nL-glutamine ha\norted.\nof\n21.7 g/kg was\nfor the rat, a\n7.5 g/kg orally was reported.\n56661",
+      "classification": {
+        "predicted_class": "Report",
+        "confidence": 0.8518273830413818
+      },
+      "entities": [
+        {
+          "text": "56-85-9",
+          "label": "DATE",
+          "start": 19,
+          "end": 26,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "6899-4-3",
+          "label": "DATE",
+          "start": 44,
+          "end": 52,
+          "confidence": 0.9,
+          "method": "regex"
+        },
+        {
+          "text": "Maillard",
+          "label": "GPE",
+          "start": 383,
+          "end": 391,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "3684",
+          "label": "MONEY",
+          "start": 487,
+          "end": 491,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "FDA",
+          "label": "ORG",
+          "start": 525,
+          "end": 528,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "56661",
+          "label": "DATE",
+          "start": 652,
+          "end": 657,
+          "confidence": 0.85,
+          "method": "spacy"
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "../archive/dataset/Report/0011987564.jpg",
+    "result": {
+      "ocr_text": "r:\nDiscussions in Japan on Monday, December 12.\nllowing was agreed:\norder to gauge our recommended product against the grc\ng SALEM Lights product. Linc Lewis and Herb Woertz\nease liaise.\n: was agreed to conduct group discussions with the young\nranchise smokers in order to better evaluate current KEr\nilms. Clearly, the smokers in the previous group discus\nions were older than the smokers who currently are going\n imported American products.\nt was agreed in principle to put a charcoal filter on KI\narent King Size and Deluxe as well as raise the delivery\no the 15 or 16 mg. level. Linc Lewis and Herb Woertz\nlease make a recommendation on product.\nt was agreed to introduce KENT Luxury Mild loo's in hin\nid format at Yen 250/280 in order to upgrade the image \nENT and to compete in the growing 250/280 category.\nt was agreed to focus our support towards growth in the\nigher priced segments. Accordingly, Joel Silverstein w:\nevise the spend plan on LUCKY STRIKE to ensure that it ;\nptimal even if this means reducing some support on KENT\noel Silverstein will review the analyticals on voGue an\nAPRI Menthol versions. There are trade reports that\nriers of CAPRI Menthol are returning to VOGUE Menthol,\nhe region believes that there may be a product differen\nhich explains this. Prior to doing any CPT's, it is\necessary to get a full analytical evaluation. Linc Lew\nnd Herb Woertz please do the same here and give us a vi\noel Silverstein will prepare a plan for expansion and s\nort of CAPrl for discussion here in Louisville. It is\ne here in early January.\ncapital proposal will need to be developed for the sal\nJoel Silverstein will have that\norce software program. \nere by the first week of January.",
+      "classification": {
+        "predicted_class": "Report",
+        "confidence": 0.9891000390052795
+      },
+      "entities": [
+        {
+          "text": "Japan",
+          "label": "GPE",
+          "start": 18,
+          "end": 23,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Monday, December 12",
+          "label": "DATE",
+          "start": 27,
+          "end": 46,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Linc Lewis",
+          "label": "PERSON",
+          "start": 147,
+          "end": 157,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Herb Woertz",
+          "label": "PERSON",
+          "start": 162,
+          "end": 173,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "American",
+          "label": "NORP",
+          "start": 424,
+          "end": 432,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "KI",
+          "label": "GPE",
+          "start": 497,
+          "end": 499,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "King Size",
+          "label": "PERSON",
+          "start": 506,
+          "end": 515,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Deluxe",
+          "label": "GPE",
+          "start": 520,
+          "end": 526,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "KENT Luxury Mild loo's",
+          "label": "PERSON",
+          "start": 676,
+          "end": 698,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "ENT",
+          "label": "ORG",
+          "start": 762,
+          "end": 765,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Joel Silverstein",
+          "label": "PERSON",
+          "start": 906,
+          "end": 922,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "KENT",
+          "label": "ORG",
+          "start": 1034,
+          "end": 1038,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Silverstein",
+          "label": "PERSON",
+          "start": 1043,
+          "end": 1054,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "CAPRI Menthol",
+          "label": "ORG",
+          "start": 1156,
+          "end": 1169,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "VOGUE Menthol",
+          "label": "ORG",
+          "start": 1187,
+          "end": 1200,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "CPT",
+          "label": "ORG",
+          "start": 1297,
+          "end": 1300,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Linc Lew",
+          "label": "PERSON",
+          "start": 1356,
+          "end": 1364,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Herb Woertz",
+          "label": "ORG",
+          "start": 1368,
+          "end": 1379,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "CAPrl",
+          "label": "GPE",
+          "start": 1484,
+          "end": 1489,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Louisville",
+          "label": "GPE",
+          "start": 1513,
+          "end": 1523,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "early January",
+          "label": "DATE",
+          "start": 1541,
+          "end": 1554,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "the first week of January",
+          "label": "DATE",
+          "start": 1674,
+          "end": 1699,
+          "confidence": 0.85,
+          "method": "spacy"
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "../archive/dataset/Report/10044882_10044909.jpg",
+    "result": {
+      "ocr_text": "A number of analyses were performed on the gaseous con\nobacco smoke during the first half of the twentieth centt\nit was not until the l95o's, when the availability and wi\nead use of more sophisticated quantitative instrumentation\npossible to determine very minute concentrations, that the\ntribution concerning the vapor phase composition appeared\not. Until this time, tbe enphasis had been placed on the\nticulate matter of cigarette smoke, which comprises little\nn one-twentieth of the whole smoke.\nThe analysis of cigarette smoke, composed of atmospher\nes and a ccmplex mixture of substances derived fron the co\nn and pyrolysis of tobacco, pcses a difficult problem. Fo\nposes of analysis, it is convenient to separate tbese subs\no a particulate phase and a gaseous phase. Several geod \nerials have been reported that remove over 99 per cent of\nke particulate matter. Eowever, a glass fiber fiiter medi\nbridge filter No. CM-llz [Cambridge Filter Corporation, Sy\nYorkl, most nearly meets the requirements for quantitativ\ndies. This filter, originally studied by Wartman, Cogbill\nLow [3ll, removes about 99.8 per cent of the particulate pl\nhas the added advantage of a high loading capacity withour",
+      "classification": {
+        "predicted_class": "Report",
+        "confidence": 0.767342209815979
+      },
+      "entities": [
+        {
+          "text": "the first half of the",
+          "label": "DATE",
+          "start": 75,
+          "end": 96,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "l95o",
+          "label": "GPE",
+          "start": 134,
+          "end": 138,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "very minute",
+          "label": "TIME",
+          "start": 252,
+          "end": 263,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "tbese",
+          "label": "NORP",
+          "start": 719,
+          "end": 724,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "medi\nbridge",
+          "label": "ORG",
+          "start": 898,
+          "end": 909,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Cambridge Filter Corporation",
+          "label": "ORG",
+          "start": 929,
+          "end": 957,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Yorkl",
+          "label": "PERSON",
+          "start": 962,
+          "end": 967,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Wartman",
+          "label": "PERSON",
+          "start": 1061,
+          "end": 1068,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Cogbill",
+          "label": "PERSON",
+          "start": 1070,
+          "end": 1077,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "about 99.8 per cent",
+          "label": "MONEY",
+          "start": 1096,
+          "end": 1115,
+          "confidence": 0.85,
+          "method": "spacy"
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "../archive/dataset/Report/10103478_10103482.jpg",
+    "result": {
+      "ocr_text": "IV.\nINITIATING VERSUS DEVELOPMENTAL INFLUENCES\neneral Comments\nIt is obviously aifficult to separate influences on the initiati\nf cardiovascular diseases and those which affect the development of such\nliseases once they are established.\nThis is especially true where recognition and classification of\nlisease occur only after other symptoms exist, as is usually the case.\nAs might be expected, there is no hard and fast rule or universi\nonsistent clinical opinion on this matter. It is ciear that individuals\niffer in response to smoking and to their deprivation from the habit.\nFurther research may conceivably indicate that a sufficiently h:\nercentage of those with established degrees of cardiovascular disorders 1\neact so unfavorably to smoking as to justify medical advice on certain c\nf restrictive action. This, however, is properly a matter of relationsh:\netween the individual doctor and his patient. The desired situation is \nhich will involve es broad and comprehensive knowledge as can possibly b\nequired to guide the profession in the light of its clinical experience.\nThe references appended will present opinions which are based or\nich experience. They should be considered as being contributory rather t\nonclusive and as being selected for purposes of comparison.\nThe important point is that more refined and sophisticated\nongitudinal studies of controlled populations of apparently normal indivi\nrom normalcy which represent the earliest evidence of the diseases under\ncudy and which, therefore, may be closely connected with their origin.\nSimilarly, manipulable populations of patients with established\nrly cardiovascular diseases should provide material for more sophisticat\ninical studies of factors which may influence the progress and course of\nlese diseases.\nUntil such studies are organized and bear fruit we shall have to\ncontent with a type of evidence which leaves doubt as to whether we are\naling with factors which influence origin alone, progressive development\none, or both.\nilar, Cerebral and Other\nipheral Circulation\nd animals for experimentation.",
+      "classification": {
+        "predicted_class": "Report",
+        "confidence": 0.8752281665802002
+      },
+      "entities": [
+        {
+          "text": "lese",
+          "label": "NORP",
+          "start": 1767,
+          "end": 1771,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Cerebral",
+          "label": "ORG",
+          "start": 2012,
+          "end": 2020,
+          "confidence": 0.85,
+          "method": "spacy"
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "../archive/dataset/Report/10127889_10127890.jpg",
+    "result": {
+      "ocr_text": "ritique of Busbee Application\nhe staff, Dr. Brennan and I met Dr. Busbee during\nhe meeting of the CTR in June 1982 where he present\nis data.\nn principle, the work is concerned with the transpoi\nf aromatic hydrocarbons (H3) carcinogen by serum\nomponents. In addition, the importance of binding\nf lipofilic carcinogens by lipoproteins and their\nptake is being explored. It was therefore logical\nr. Busbee to suggest a correlation between LP and tl\netion of carcinogens.\nNot so logical is his invoca\nf carcinogen-initiated hypoplastic growth of cells\niman atherosclerosis.\nIn this connection he quotes\nin reference 7) Benditt, who has demonstrated the\namor-like growth of smooth muscle cells, but who nel\nentioned any connection with lipofilic carcinogens.\nis connection is most tenuous.\nis also natural for Dr. Busbee to invoke the work\nldstein on LDl receptors.\nattempts to demonstrate the close connection betwe\nansport of carcinogen (PAH) by lipoproteins, and th\ntiation of DNA synthesis in treated cells.\nHNIQUE:\nothers and that is the TSk-25o column which orig\napan.\nI have no experience with this column, sir\npeople use differential ultra-centrifugation or\nanese methods. The binding of LDL with benzopyre\nis labeled is investigated. A further step,\nof\ne binding of carcinogens to cellular components.\nhuman lymphocytes in this connection.\nast step is an investigation of carcinogen bindi\nocytes to DNA, and the incorporation of tritiate\nlin into lymphocytes.\nnciple, tnerefore, the investigation consists i\n.f low densitv linanros",
+      "classification": {
+        "predicted_class": "Report",
+        "confidence": 0.7027410268783569
+      },
+      "entities": [
+        {
+          "text": "Busbee Application",
+          "label": "ORG",
+          "start": 11,
+          "end": 29,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Brennan",
+          "label": "PERSON",
+          "start": 44,
+          "end": 51,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Busbee",
+          "label": "PERSON",
+          "start": 66,
+          "end": 72,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "CTR",
+          "label": "ORG",
+          "start": 98,
+          "end": 101,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "June 1982",
+          "label": "DATE",
+          "start": 105,
+          "end": 114,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "carcinogen-initiated",
+          "label": "ORG",
+          "start": 499,
+          "end": 519,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Benditt",
+          "label": "PERSON",
+          "start": 615,
+          "end": 622,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "carcinogen (PAH",
+          "label": "ORG",
+          "start": 923,
+          "end": 938,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "lin",
+          "label": "PERSON",
+          "start": 1442,
+          "end": 1445,
+          "confidence": 0.85,
+          "method": "spacy"
+        }
+      ]
+    }
+  },
+  {
+    "image_path": "../archive/dataset/Report/10167656.jpg",
+    "result": {
+      "ocr_text": "Mass achuset ts.\nHydrocarbon Hydroxylase and Occupat Iona! Exposure to Asbestos\"\nThis investigator intends tn measure Iymphoblast AHh Inducibility in\ncts with known heavy exposure to asbes tos for many years. Thelr findi\nbe compared with an age-matched ui.exposed control population. The\nsed group will include 145 smokers and 55 non-smokers, a number which t\neve will be sufficient to provide prospective assessments of the relatt\neen AHh inducibility and the development cf disease known to be relatec\nstos (lung cancer, and mesotheliomata).\nSpectrofluorometric methods will be us~d for the determinatlon of AHH\nured lymphoblasts. Studies will be rer:ated on a sub-sample of the tot\nlation. Finally, Dr. Selikoff, a physician with extensive experience t\nasbestos problem, will be a participant in the study through the provis\now-up, presumably over a long period of time, on the subjects so that \nelation between asbes tos associated lung disease and Ahh inducibl lity\nt be determined.\nInvestigations wlll be conducted at the Channing Laboratory of the Ha\ncal School which is located at the Boston City Hospital.\nThe laborato\nlities appear to be adequate.\nSamples will be collected by Dr. Selikoff and his associates and ther\nletter Indicating the col labcration agreement with Dr. Selikoff.\nThere is only one technical point that I would like to ralse and this\nns to the budget justification. Specifically, the specimens wlll be\ned in New York City by Dr. Sellkoff during the course af regular\natlons on the subject populati n. The investinator ralses a problem\nsafe arrival of samples in Bosion and I assume by this that he is co\nhe shirning and viability of these lymohocytes. I do not foresee\nIs should be a serious probien since we have shipped samples succes\nrous occas ions. i would think that this minor problem could be\nd with the saving of significant funds which miaht othenwlse be\nI through Boston to New York and return trips by personnel.\ns project appears to be well thought out, and the investinator\n1y appears to have ins ight into pertinent aspects of the issue\nit would be of value to learn about the imnortant problem of asb\narette smokinn, and asbestos related disenses.",
+      "classification": {
+        "predicted_class": "Report",
+        "confidence": 0.9312686324119568
+      },
+      "entities": [
+        {
+          "text": "Hydrocarbon Hydroxylase",
+          "label": "PERSON",
+          "start": 17,
+          "end": 40,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Occupat Iona",
+          "label": "ORG",
+          "start": 45,
+          "end": 57,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Iymphoblast AHh Inducibility",
+          "label": "ORG",
+          "start": 118,
+          "end": 146,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "many years",
+          "label": "DATE",
+          "start": 197,
+          "end": 207,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "mesotheliomata",
+          "label": "ORG",
+          "start": 527,
+          "end": 541,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Selikoff",
+          "label": "PERSON",
+          "start": 706,
+          "end": 714,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Ahh",
+          "label": "PERSON",
+          "start": 953,
+          "end": 956,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "the Channing Laboratory of the Ha\ncal School",
+          "label": "ORG",
+          "start": 1024,
+          "end": 1068,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "the Boston City Hospital",
+          "label": "ORG",
+          "start": 1089,
+          "end": 1113,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Samples",
+          "label": "PERSON",
+          "start": 1158,
+          "end": 1165,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "New York City",
+          "label": "GPE",
+          "start": 1438,
+          "end": 1451,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Sellkoff",
+          "label": "PERSON",
+          "start": 1459,
+          "end": 1467,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Bosion",
+          "label": "PERSON",
+          "start": 1592,
+          "end": 1598,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "Boston",
+          "label": "GPE",
+          "start": 1905,
+          "end": 1911,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "New York",
+          "label": "GPE",
+          "start": 1915,
+          "end": 1923,
+          "confidence": 0.85,
+          "method": "spacy"
+        },
+        {
+          "text": "arette smokinn",
+          "label": "PERSON",
+          "start": 2147,
+          "end": 2161,
+          "confidence": 0.85,
+          "method": "spacy"
+        }
+      ]
+    }
+  }
+]
